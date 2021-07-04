@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+   <!-- homepage's index.html file-->
+   
+<head>
+   <!-- template block-->
+   <!-- Google Tag Manager -->
+   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-P68SJ4T');
+   </script>
+   <!-- End Google Tag Manager -->
+   
+   <!-- Clarity tracking code for http://proelm.az -->
+<script>
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "52rzqfz3z3");
+</script>
+      <!-- End Clarity tracking code for http://proelm.az -->
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta http-equiv='content-language' content='az'>
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+   <link href='https://fonts.googleapis.com/css?family=Bodoni Moda' rel='stylesheet'>
+   <link href='https://fonts.googleapis.com/css?family=Cormorant SC' rel='stylesheet'>
+    <!--animate css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <!-- Font Awesome-->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <!-- My CSS -->
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="css/responsive.css">
+   <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+   <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script>
+      jQuery(document).ready(function( $ ) {
+          $('.counter').counterUp({
+              delay: 10,
+              time: 2000
+          });
+      });
+   </script>
+   <title>ProElm Fərqli Kurslar</title>
+   <link rel="icon"  href="images/logo.jpg">
+   <!--script for include-->
+   <script>
+      function includeHTML() {
+        var z, i, elmnt, file, xhttp;
+        /*loop through a collection of all HTML elements:*/
+        z = document.getElementsByTagName("*");
+        for (i = 0; i < z.length; i++) {
+          elmnt = z[i];
+          /*search for elements with a certain atrribute:*/
+          file = elmnt.getAttribute("w3-include-html");
+          if (file) {
+            /*make an HTTP request using the attribute value as the file name:*/
+            xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+              if (this.readyState == 4) {
+                if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                /*remove the attribute, and call this function once more:*/
+                elmnt.removeAttribute("w3-include-html");
+                includeHTML();
+              }
+            }      
+            xhttp.open("GET", file, true);
+            xhttp.send();
+            /*exit the function:*/
+            return;
+          }
+        }
+      };
+      
+   </script>
+   <!--script for include end-->
+   <!-- template block end-->
+</head>
+<body>
+   <!-- navbar include command-->
+   <div w3-include-html="navbar.html"></div>
+   <script>
+      includeHTML();
+   </script>
+   <!-- navbar include command end-->
+   <section id="Carousel">
+      <div class="container-fluid">
+         <div class="row">
+            <div id="myCarousel" class="carousel slide w-100" data-ride="carousel" data-touch="true">
+               <!--<ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+               </ol>-->
+                <div class="carousel-inner">
+				<div class="myIndicators" style="position:absolute; olor: green; opacity:80%; z-index:1000; width:100%; height:34.5%;">
+				
+				</div>
+					<div class="carousel-item active">
+						
+						<img id="slideImg" class="d-block w-100" src="images/carousel1.png" alt="First slide" style="max-width:100%;height:auto;">
+						
+						<div id="slide1" class="carousel-caption d-none d-md-block">
+							<!--<div class="myCarousel-textDiv">-->
+								<h5 onclick="document.location='/register.html'" class="animate__animated animate__fadeInLeft animate__slow animate__delay-1s">Məşhur şirkətlərdə təcrübə proqramı!</h5>
+								<p onclick="document.location='/register.html'" class="animate__animated animate__fadeInLeft animate__slow animate__delay-1s">Təcrübəsiz bir gününüz belə keçməsin</p>
+								<a href="/register.html"  class="btn btn-danger v-cource animate__animated animate__fadeIn animate__slow animate__delay-2s">Ətraflı</a>
+							<!--</div>-->
+						
+						</div>	
+						
+						<!-- caption for responsive-->
+						<div id="responsiveCapt" class=" group-slide-description field-group-div">
+							<div class="field field-name-field-display-title field-type-text field-label-hidden">
+								<span class="field-item-single"><h5>Məşhur şirkətlərdə təcrübə proqramı</h5></span>
+							</div>
+							
+							<div class="field field-name-field-intro field-type-text-long field-label-hidden">
+								<span class="field-item-single">Təcrübəsiz bir gününüz belə keçməsin</span>
+							</div>
+						</div>
+						<!-- end of caption for responsive-->
+							
+
+
+						<!-- <div class="myCarouselLayer" >
+						 </div>-->
+                    </div>
+				  
+					  <div class="carousel-item">
+						 <img class="d-block w-100" src="images/carousel3.jpg" alt="Second slide" style="max-width:100%;height:auto;">
+						 <div id="slide2" class="carousel-caption d-none d-md-block">
+							<h5 onclick="document.location='/register.html'" class="animate__animated animate__fadeInLeft animate__slow animate__delay-1s">Xaricdə Təhsil</h5>
+							<p onclick="document.location='/register.html'" class="animate__animated animate__fadeInLeft animate__slow animate__delay-1s"> Xaricdə Təhsil almaq
+							istəyirsən? Suallarını ProElm ailəsinə verə bilərsən! 
+							ProElm Tədris Mərkəzi Xaricdə təhsillə əlaqəli konsultasiya verir; imtahana qeydiyyata və sənədlərin toplanmasına kömək edir. </p>
+							<a href="#OurCourse" class="btn btn-danger v-cource animate__animated animate__fadeIn animate__slow animate__delay-2s">Ətraflı</a>    
+						 </div>
+						 
+						<!-- caption for responsive-->
+						<div id="responsiveCapt" class=" group-slide-description field-group-div">
+							<div class="field field-name-field-display-title field-type-text field-label-hidden">
+								<span class="field-item-single"><h5>Xaricdə Təhsil</h5></span>
+							</div>
+							
+							<div class="field field-name-field-intro field-type-text-long field-label-hidden">
+								<span class="field-item-single">Xaricdə Təhsil almaq
+							istəyirsən? Suallarını ProElm ailəsinə verə bilərsən! 
+							ProElm Tədris Mərkəzi Xaricdə təhsillə əlaqəli konsultasiya verir; imtahana qeydiyyata və sənədlərin toplanmasına kömək edir.</span>
+							</div>
+						</div>
+						<!-- end of caption for responsive-->
+					  </div>
+					  
+					  <div class="carousel-item">
+						 <img class="d-block w-100" src="images/carousel3.jpg" alt="Third slide" style="max-width:100%;height:auto;">
+						 <div id="slide3" class="carousel-caption d-none d-md-block">
+							<h5 onclick="document.location='/register.html'" class="animate__animated animate__fadeInLeft animate__slow animate__delay-1s">Anlayıram ancaq danışa bilmirəm... </h5>
+							<p onclick="document.location='/register.html'" class="animate__animated animate__fadeInLeft animate__slow animate__delay-1s"> Bu cümləni bir daha qurmamaq üçün "Only Speaking"- "Sadəcə Danışıq" Dərslərinə indi qatılın!</p>
+							<a href="#OurCourse" class="btn btn-danger v-cource animate__animated animate__fadeIn animate__slow animate__delay-2s">Ətraflı</a>
+						 </div>
+						 
+						<!-- caption for responsive-->
+						<div id="responsiveCapt" class=" group-slide-description field-group-div">
+							<div class="field field-name-field-display-title field-type-text field-label-hidden">
+								<span class="field-item-single"><h5>Anlayıram ancaq danışa bilmirəm... </h5></span>
+							</div>
+							
+							<div class="field field-name-field-intro field-type-text-long field-label-hidden">
+								<span class="field-item-single">Bu cümləni bir daha qurmamaq üçün "Only Speaking"- "Sadəcə Danışıq" Dərslərinə indi qatılın!</span>
+							</div>
+						</div>
+						<!-- end of caption for responsive-->
+					  </div>
+					  
+					  <div class="carousel-item">
+						 <img class="d-block w-100" src="images/carousel3.jpg" alt="Fourth slide" style="max-width:100%;height:auto;">
+						 <div id="slide4" class="carousel-caption d-none d-md-block">
+							<h5 onclick="document.location='/register.html'" class="animate__animated animate__fadeInLeft animate__slow animate__delay-1s">Ödənişsiz materiallar </h5>
+							<p onclick="document.location='/register.html'" class="animate__animated animate__fadeInLeft animate__slow animate__delay-1s"> Blog bölməsində fərqli mövzularla əlaqəli faydalı ödənişsiz məlumatları ala bilərsiz</p>
+							<a href="#OurCourse" class="btn btn-danger v-cource animate__animated animate__fadeIn animate__slow animate__delay-2s">Ətraflı</a>
+						 </div>
+						
+						<!-- caption for responsive-->
+						<div id="responsiveCapt" class=" group-slide-description field-group-div">
+							<div class="field field-name-field-display-title field-type-text field-label-hidden">
+								<span class="field-item-single"><h5>Blog bölməsində fərqli mövzularla əlaqəli faydalı ödənişsiz məlumatları ala bilərsiz</h5></span>
+							</div>
+							
+							<div class="field field-name-field-intro field-type-text-long field-label-hidden">
+								<span class="field-item-single">Blog bölməsində fərqli mövzularla əlaqəli faydalı ödənişsiz məlumatları ala bilərsiz</span>
+							</div>
+						</div>
+						<!-- end of caption for responsive-->
+					  </div>
+		
+					<a id="pauseButton"  class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev" style="z-index: 1000;">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a id="playButton" class="carousel-control-next"  href="#myCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+		
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel" data-slide-to="1"></li>
+					  <li data-target="#myCarousel" data-slide-to="2"></li>
+					  <li data-target="#myCarousel" data-slide-to="3"></li>
+				   </ol> 
+	
+	
+
+               </div>
+               <!--<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev" style="z-index: 1000;">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+               </a>-->
+            </div>
+         </div>
+      </div>
+	  
+		<!--	  <script>
+		$(document).ready(function(){
+		  // Activate Carousel
+		  $("#myCarousel").carousel();
+			
+		  // Enable Carousel Indicators
+		  $(".item1").click(function(){
+			$("#myCarousel").carousel(0);
+		  });
+		  $(".item2").click(function(){
+			$("#myCarousel").carousel(1);
+		  });
+		  $(".item3").click(function(){
+			$("#myCarousel").carousel(2);
+		  });
+		  $(".item4").click(function(){
+			$("#myCarousel").carousel(3);
+		  });
+			
+		  // Enable Carousel Controls
+		  $(".left").click(function(){
+			$("#myCarousel").carousel("prev");
+		  });
+		  $(".right").click(function(){
+			$("#myCarousel").carousel("next");
+		  });
+		});
+		</script> 
+		-->
+	  
+   </section>
+   <section class="mb-5 pb-5 coursesblock" id="OurCourse">
+      <div class="container mt-5">
+         <div id="Kurslarimiz" class="row mt-5 pt-2">
+            <div class="col-md-12 text-center kurstext">
+               <h2 class="head-title">Kurslarımız</h2>
+            </div>
+            <div class="col-md-12 mt-5" id="courseFilter">
+               <div class="course-headers w-100">
+                  <ul id="courseh-ul">
+                     <li class="courseh-active courseh-link "  data-filter="all"> <a  href="#">Hamısı</a></li>
+                     <li class="courseh-link" data-filter="it"> <a href="#">IT</a></li>
+                     <li class="courseh-link" data-filter="sat"> <a href="#">Xaricdə Təhsil</a></li>
+                     <li class="courseh-link" data-filter="language"><a  href="#">Dillər</a></li>
+                     <!--<li class="courseh-link"  data-filter="programming"><a  href="#">Proqramlaşdırma</a></li> -->
+                     <li class="courseh-link" data-filter="internship"><a  href="#">Təcrübə imkanı</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container mt-5">
+         <div class="row">
+            <div id="coursePreviews" class="col-xl-4 col-md-6 col-sm-12 it administering internship cardsc-item">
+               <div class="card w-100" >
+                  <div class="pop bg-info"> 
+                    30%                         
+                  </div>
+                  <img src="images/itprof_preview.jpg" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                     <h3 class="card-title">IT Professional</h3>
+                     <p class="card-text">Bu kurs sıfırdan IT mütəxəssisi olmaq istəyən vəya ixtisaslarını artırmaq istəyənlər üçündür.<br> Kursun sonunda təcrübə proqramı mövcuddur.</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between">
+                     <div>
+                        <p>Age</p>
+                        <span>14-65 yaş</span>
+                     </div>
+                     <div>
+                        <p>Time</p>
+                        <span>6 Ay</span>
+                     </div>
+                     <div>
+                        <p>Price</p>
+                        <span>140 Azn/Aylıq</span>
+                     </div>
+
+                  </div>
+                   <a class="read-more" href="itprof.html">Ətraflı</a> 
+                  <!--<a class="read-more" href="register.html">Ətraflı</a>-->
+				  
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12 it programming internship cardsc-item ">
+               <div class="card w-100" >
+                  <!--<div class="pop bg-danger"> -->
+                  <div class="pop bg-info">
+                     30%                         
+                  </div>
+                  <img src="images/ccppe_preview.png" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                     <h3 class="card-title">C/C++ embedded</h3>
+                     <p class="card-text">Embedded proqramçı olmaq istəyənlər üçün əsaslı biliklər verilən 6 aylıq kurs!<br> Kursun sonunda təcrübə imkanı mövcuddur.</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between">
+                     <div>
+                        <p>Age</p>
+                        <span>14-65 yaş</span>
+                     </div>
+                     <div>
+                        <p>Time</p>
+                        <span>6 Ay</span>
+                     </div>
+                     <div>
+                        <p>Price</p>
+                        <span>140 Azn/Aylıq</span>
+                     </div>
+                  </div>
+                   <a class="read-more" href="ccppe.html">Ətraflı</a> 
+                  <!--<a class="read-more" href="register.html">Ətraflı</a>-->
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12 sat cardsc-item">
+               <div class="card w-100" >
+                  <div class="pop bg-info"> 
+                     30%                         
+                  </div>
+                  <img src="images/default_preview.png" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                     <h3 class="card-title">SAT Math + Verbal</h3>
+                     <p class="card-text">Xaricdə bakalavr təhsili almaq istəyənlər üçün peşəkar SAT hazırlığı.<br> Dərs planı tələbənin biliklərinə görə hazırlanır. </p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between">
+                     <div>
+                        <p>Age</p>
+                        <span>18-24 yaş</span>
+                     </div>
+                     <div>
+                        <p>Time</p>
+                        <span>6 Ay</span>
+                     </div>
+                     <div>
+                        <p>Price</p>
+                        <span>220 Azn/Aylıq</span>
+                     </div>
+                  </div>
+                   <a class="read-more" href="sat.html">Ətraflı</a> 
+                 <!-- <a class="read-more" href="register.html">Ətraflı</a> -->
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12 sat cardsc-item">
+               <div class="card w-100" >
+                  <img src="/images/default_preview.png" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                     <h3 class="card-title">SAT Math</h3>
+                     <p class="card-text">SAT imtahanının Math bölməsində yüksək bal toplamaq istəyənlər üçün əla fürsət!<br> Qısa müddətdə bal artışı zəmanəti verilir.</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between">
+                     <div>
+                        <p>Age</p>
+                        <span>18-24</span>
+                     </div>
+                     <div>
+                        <p>Time</p>
+                        <span>4 Ay</span>
+                     </div>
+                     <div>
+                        <p>Price</p>
+                        <span>150 Azn/Aylıq</span>
+                     </div>
+                  </div>
+                   <a class="read-more" href="satmath.html">Ətraflı</a> 
+                 <!--<a class="read-more" href="register.html">Ətraflı</a>-->
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12 language cardsc-item">
+               <div class="card w-100" >
+                  <img src="/images/default_preview.png" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                     <h3 class="card-title">İngilis dili</h3>
+                     <p class="card-text">Kurs, əsasən İngilis dili danışıq və dinləmənizi inkişaf etdirmək üçün yaradılıb.<br> Qrammatika testləri işlətmədən tədris həyata keçirilir</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between">
+                     <div>
+                        <p>Age</p>
+                        <span>7-50 yaş</span>
+                     </div>
+                     <div>
+                        <p>Time</p>
+                        <span>3-6 Ay</span>
+                     </div>
+                     <div>
+                        <p>Price</p>
+                        <span>80 Azn/Aylıq</span>
+                     </div>
+                  </div>
+                  <!-- <a class="read-more" href="english.html">Ətraflı</a> -->
+                  <a class="read-more" href="register.html">Ətraflı</a>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12 sat cardsc-item">
+               <div class="card w-100" >
+                  <img src="/images/default_preview.png" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                     <h3 class="card-title">Sat Verbal</h3>
+                     <p class="card-text">Digər bir çox kursdan fərqli olaraq, tələbələrə ən çətin gələn SAT Verbal (Reading və Writing) hissələri üzrə qaydalar başa salınır... </p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between">
+                     <div>
+                        <p>Age</p>
+                        <span>18-24 yaş</span>
+                     </div>
+                     <div>
+                        <p>Time</p>
+                        <span>2 Ay</span>
+                     </div>
+                     <div>
+                        <p>Price</p>
+                        <span>200 Azn/Aylıq</span>
+                     </div>
+                  </div>
+                   <a class="read-more" href="satverbal.html">Ətraflı</a> 
+                  <!--<a class="read-more" href="register.html">Ətraflı</a>-->
+               </div>
+            </div>
+         </div>
+      </div>
+   <!--</section>
+   <section id="OurTeachers" class="mt-2 pt-5">
+      <div class="container">
+         <div class="row ">
+            <div class="col-md-12 text-center">
+               <h1 class="head-title">Müəllimlərimiz</h1>
+            </div>
+         </div>
+         <div id="autoplay" class="cs-hidden mt-5">
+            <div class="item-cor">
+               <div class="card" >
+                  <div class="img1">
+                     <img src="images/faigb_field.jpg">
+                  </div>
+                  <div class="img2">
+                     <img src="images/faigb_photo.jpg">
+                  </div>
+                  <div class="main-text">
+                     <h2>Faiq Bağırov</h2>
+                     <h4>IT Mentor və Müəllim</h4>
+                     <p>IT sahəsində 12 ildən artıq təcrübəsi olan Faiq Bağırov, sistem inzibatçılığı 
+					 və proqramlaşdırma sahələrində çalışmış və tədris etmişdir. 
+					 Hal hazırda ProElm Tədris Mərkəzinin həmtəsisçisi və IT Professional, 
+					 C/C++ embedded kurslarının müəllimidir </p>
+                  </div>
+                  <div class="socials">
+                     <!--<i class="fab fa-facebook-f"></i>
+                     <i class="fab fa-linkedin-in"></i>
+                     <i class="fab fa-twitter"></i>
+					 
+				  <li><a href="https://www.linkedin.com/in/faig-baghirov/">
+					<i class="fab fa-linkedin-in"></i>
+					</a>
+                  </li>
+               </li>
+				  
+				  
+                  </div>
+               </div>
+            </div>
+            <div class="item-cor">
+               <div class="card" >
+                  <div class="img1">
+                     <img src="images/elzab_field.jpg">
+                  </div>
+                  <div class="img2">
+                     <img src="images/elzab_photo.jpg">
+                  </div>
+                  <div class="main-text">
+                     <h2>Elza Bağırova </h2>
+                     <h4>SAT,IELTS,İngilis dili müəlliməsi</h4>
+                     <p>Amerika və Türkiyədə təhsil almış olan Elza Bağırova,
+                        Türkiyə və Azərbaycanda 4 ildən artıq tədris təcrübəsinə sahibdir. 
+                        O, General English, SAT, IELTS dərslərini tədris edir
+                     </p>
+                  </div>
+                  <div class="socials">
+                     <!--<i class="fab fa-facebook-f"></i>
+                     <i class="fab fa-linkedin-in"></i>
+                     <i class="fab fa-twitter"></i>--> <!--
+					 </div>
+               </div>
+            </div>
+            <!--
+               <div class="item-cor">
+                 <div class="card" >
+                    <div class="img1">
+                       <img src="images/carousel1.jpg">
+                   </div>
+                   <div class="img2">
+                    <img src="images/carousel2.jpg">
+                </div>
+                <div class="main-text">
+                    <h2>Filankes Filankesov</h2>
+                    <h4>Web Developer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut </p>
+                </div>
+                <div class="socials">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-linkedin-in"></i>
+                  <i class="fab fa-twitter"></i>
+               
+               </div>
+               </div>
+               </div> 
+               --> <!--
+         </div>
+      </div>
+   </section>-->
+
+   <section id="AboutUs" class="mt-5 ">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12 text-center">
+               <h1 class="head-title mb-5">Haqqımızda</h1>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-12 col-md-12 col-xl-6 ">
+               <div class="p-5 mt-3 about-img" >
+                  <img  src="images/library.jpg" class="w-100 ">
+               </div>
+            </div>
+            <div class="col-12 col-md-12 col-xl-6">
+               <div class="pt-5 pb-5 about-right">
+                  <span class="about-title">Niyə ProElm?</span>
+                  <h2 style="color:#5c7697;">İstər əyani, istər online- fərq etmir, fərqimiz sıxıcı standartları kənara atmağımızdır. </h2> <h2>Qısa Müddətdə Yeni Peşə Sahibi Ol, Təcrübə proqramında iştirak et, Təhsil Yolunu Planla,  İstədiyin Yerdən Qoşul və Standart Olmayan Üsullarla Yeni Biliklər əldə et </h2>
+                  <ul class="about-list">
+                     <li>
+                        <span>
+                        <i class="fas fa-chalkboard-teacher "></i>
+                        Peşəkar müəllimlər
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                        <i class="fab fa-algolia "></i> 
+                        Qısa zamanda inkişaf
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                        <i class="fas fa-laptop-house "></i>
+                        Online və əyani təhsil
+                        </span>
+                     </li>
+                     <li>
+                        <span>
+                        <i class="fas fa-portrait "></i>
+                        Özinkişaf
+                        </span>
+                     </li>
+                  </ul>
+                  <!--<a href="#OurCourse" class="all-coursebtn"> 
+                  Ətraflı    </a>-->
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--<section id="Counters" class="mt-5">
+      <div class="overlay w-100">
+         <div class="container h-100">
+            <div class="row h-100 justify-content-around align-items-center">
+               <div class="col-xl-3 col-md-6 col-12">
+                  <div class="counter-up">
+                     <div class="counter-icon"> <i class="fas fa-users fa-2x"></i>  </div>
+                     <h5> Total Learns </h5>
+                     <h3 class="counter">  142</h3>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-md-6 col-12">
+                  <div class="counter-up">
+                     <div class="counter-icon"><i class="fas fa-user-graduate fa-2x"></i>  </div>
+                     <h5> Total Graduets </h5>
+                     <h3 class="counter">  365</h3>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-md-6 col-12">
+                  <div class="counter-up ">
+                     <div class="counter-icon"><i class="fas fa-chalkboard-teacher fa-2x"></i>  </div>
+                     <h5> Total Teachers </h5>
+                     <h3 class="counter">  10</h3>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-md-6 col-12">
+                  <div class="counter-up">
+                     <div class="counter-icon"> <i class="fas fa-book fa-2x"></i> </div>
+                     <h5> Total Courses </h5>
+                     <h3 class="counter">  25</h3>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   -->
+   <section id="Contact">
+      <div class="container">
+         <div class="contactinfo">
+            <div>
+               <h2>Bizimlə Əlaqə</h2>
+               <ul class="info">
+                  <li>
+                     <span><img src="/images/address.png"></span>
+                     <span >Bakı-Bakıxanov qəs. <br>
+                     Mehmandarov küç. <br>
+                     (Razin stansiyası)
+                     </span>
+                  </li>
+                  <li>
+                     <span><img src="/images/email.png"></span>
+                     <span><a href="mailto:info@proelm.az">info@proelm.az</a></span>
+                  </li>
+                  <li>
+                     <span><img src="images/phone-call.png"></span>
+                     <span><a href="tel:+994505800046">+994 50 580 00 46</a></span>
+                  </li>
+               </ul>
+            </div>
+            <ul class="sci">
+			   <li><a href="https://telegram.me/proelm"> 
+                  <i class="fab fa-telegram-plane"></i>
+                  </a>
+               </li>
+			    <li><a href="http://api.whatsapp.com/send?phone=+994505800046"> 
+                  <i class="fab fa-whatsapp"></i>
+                  </a>
+               </li>
+			   
+               <li><a href="https://www.facebook.com/proelmaz">
+                  <i class="fab fa-facebook-f"></i>
+                  </a>
+               </li>
+               <li><a href="https://www.instagram.com/proelm.az/"> 
+                  <i class="fab fa-instagram"></i>
+                  </a>
+               </li>
+			   <li><a href="https://www.linkedin.com/company/proelm/">
+                  <i class="fab fa-linkedin-in"></i>
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <div class="contactForm">
+
+				<img  src="/images/contacts.png" class="w-100" max-width="100%" max-height="100%" ">
+
+		 
+           <!-- <h2>Bizə yazın</h2>
+            <div class="formBox">
+               <div class="inputBox w50">
+                  <input class="ConInp" type="text" name="" required="">
+                  <span class="ConSpan">Adınız</span>
+               </div>
+               <div class="inputBox w50">
+                  <input class="ConInp" type="text" name="" required>
+                  <span class="ConSpan">Soyadınız</span>
+               </div>
+               <div class="inputBox w50">
+                  <input class="ConInp" type="email" name="" required>
+                  <span class="ConSpan">Email Adresiniz</span>
+               </div>
+               <div class="inputBox w50">
+                  <input class="ConInp" type="tel" name="" required>
+                  <span class="ConSpan">Əlaqə nömrəsi</span>
+               </div>
+               <div class="inputBox w100" >
+                  <textarea class="ConInp" name="" required></textarea>
+                  <span class="ConSpan">Mesajınızı bura yazın</span>
+               </div>
+               <div class="inputBox w100">
+                  <input type="submit" value="Göndər">
+               </div>
+            </div>-->
+			 <!--<div class="p-5 mt-3 contacts-img" >
+                 <img  src="images/contacts.png" class="w-75" width="auto" height="540" style=" position:relative; top:-129px; left:108px;">
+             </div> -->
+			   
+         </div>
+      </div>
+   </section>
+   <footer>
+      <div class="container">
+         <div class="row  pb-5 pt-5">
+            <div class="col-md-6 col-12 col-xl-4">
+               <div  class=" footer-about">
+                  <h3 class="foot-title">Haqqımızda</h3>
+                  <p>ProElm Tədris Mərkəzi sizə ənənəvi olmayan üsullarla 
+                     tədris təklif edir!
+                  </p>
+               </div>
+            </div>
+            <div class="col-md-6 col-12 col-xl-2">
+               <div >
+                  <h3 class="foot-title">Menu</h3>
+                  <ul>
+                     <li><a href="/#Home">Ana Səhifə</a></li>
+                     <li><a href="/#OurCourse">Kurslarımız</a></li>
+					 <li><a href="/#AboutUs">Haqqımızda</a></li>
+
+                     <li><a href="/#OurTeachers">Müəllimlər</a></li>
+                     <li><a href="/blog">Bloq</a></li>
+                     <li><a href="/#Contact">Əlaqə</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-md-6 col-12 col-xl-3 ">
+               <div >
+                  <h3 class="foot-title">Ən çox bəyənilən Kurslar</h3>
+                  <ul>
+                     <li><a href="#">C/C++</a></li>
+                     <li><a href="#">IT Professional</a></li>
+                     <li><a href="#">General English</a></li>
+                     <li><a href="#">SAT</a></li>
+                     <li><a href="#">IELTS</a></li>
+                     <li><a href="#">Abituriyent hazırlığı</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-md-6 col-12 col-xl-3 ">
+               <div >
+                  <h3 class="foot-title ">Media</h3>
+                  <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                     <div class="col-md-6 col-6 foot-news">
+                        <img src="images/faigb_field_mini.jpg" width="100%" class="image" alt="First" data-target="#carouselExample" data-slide-to="0">
+                        <div class="middle">
+                           <a href="#" data-target="#carouselExample" data-slide-to="0" ><i class="fas fa-link "></i></a>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-6 foot-news">
+                        <img src="images/bg2.jpg" width="100%" class="image" alt="Second" data-target="#carouselExample" data-slide-to="1" >
+                        <div class="middle">
+                           <a href="#" data-target="#carouselExample" data-slide-to="1"><i class="fas fa-link "></i></a>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-6 foot-news">
+                        <img src="images/carousel1.jpg" height="100%" width="100%" class="image"  alt="Third" data-target="#carouselExample" data-slide-to="2">
+                        <div class="middle">
+                           <a href="news3.html" data-target="#carouselExample" data-slide-to="2"><i class="fas fa-link "></i></a>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-6 foot-news">
+                        <img src="images/elzab_field.jpg" width="100%" class="image" alt="Fourth" data-target="#carouselExample" data-slide-to="3" >
+                        <div class="middle">
+                           <a href="news4.html" data-target="#carouselExample" data-slide-to="3"><i class="fas fa-link "></i></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                              <span class="footer-close" aria-hidden="true">&times;</span>
+                              </button>
+                           </div>
+                           <div class="modal-body">
+                              <div id="carouselExample" class="carousel slide" data-ride="carousel" >
+                                 <ol class="carousel-indicators">
+                                    <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExample" data-slide-to="1"></li>
+                                    <li data-target="#carouselExample" data-slide-to="2"></li>
+                                    <li data-target="#carouselExample" data-slide-to="3"></li>
+                                 </ol>
+                                 <div class="carousel-inner">
+                                    <div class="carousel-item ">
+                                       <img class="d-block w-100" src="images/tch2.jpg" alt="First">
+                                    </div>
+                                    <div class="carousel-item active">
+                                       <img class="d-block w-100" src="images/tch3.jpg" alt="Second">
+                                    </div>
+                                    <div class="carousel-item">
+                                       <img class="d-block w-100" src="images/carousel1.jpg" alt="Third">
+                                    </div>
+                                    <div class="carousel-item">
+                                       <img class="d-block w-100" src="images/carousel2.jpg" alt="Fourth">
+                                    </div>
+                                 </div>
+                                 <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                 <span class="sr-only">Previous</span>
+                                 </a>
+                                 <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                 <span class="sr-only">Next</span>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="copyright">
+         <p ><span>© It's Created By </span><a href="mailto:asimrzali9@gmail.com">Asim Rza</a><span>...All rights reserved.</span></p>
+      </div>
+   </footer>
+   <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+   <script type="text/javascript" src="js/main.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+   <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+   <script src="js/lightslider.js"></script>
+   <script type="text/javascript">
+      $(document).ready(function() {
+        /*--------Course preview filter ----------*/
+        $(".courseh-link").click(function()
+        {
+            const value=$(this).attr('data-filter');
+            if(value=="all")
+            {
+                $(".cardsc-item").show('1000');
+            }
+            else
+            {
+                $(".cardsc-item").not('.'+value).hide('1000');
+                $(".cardsc-item").filter('.'+value).show('1000');
+            }
+      
+        });
+      
+      
+      
+        /*-------Teachers List -----*/
+      
+        var itemCount=3;
+        if ($(window).width() < 700){
+            itemCount=1;
+            
+        }
+        else if($(window).width() < 1200)
+        {
+            itemCount=2;
+        }
+        else {
+           itemCount=3;
+       }
+       var autoplaySlider = $('#autoplay').lightSlider({
+           item:itemCount,
+           auto:true,
+           loop:true,
+           
+           onBeforeSlide: function (el) {
+            $('#current').text(el.getCurrentSlideCount());
+        } 
+      });
+       $('#total').text(autoplaySlider.getTotalSlideCount());
+      
+      });
+      //lower interval for testings//$('.carousel').carousel({//  interval: 2000//})
+      //$('#myCarousel').on('slide.bs.carousel', function () {//  $("#myCarousel").carousel('pause');//})
+      //.carousel('cycle')
+      
+      
+   </script>
+   <script src="js/jquery.pagenav.js"></script>
+   <script>
+      $(document).ready(function ()
+      {
+          $('.nav-link').pageNav({'scroll_shift':( $('nav').outerHeight() - 70)});
+          $('.all-coursebtn').pageNav({'scroll_shift':( $('nav').outerHeight() -120)}); 
+          $('.v-cource').pageNav({'scroll_shift':( $('nav').outerHeight() -100)}); 
+         
+      });
+      /*--------------NAVBAR-------------*/
+      
+      
+      let lastScrollTop=0;
+      let nav=document.getElementById("MyNavbar");
+      window.addEventListener("scroll",function()
+      {
+      var scrollTop=window.pageYOffset || document.documentElement.scrollTop;
+      
+      if(scrollTop>lastScrollTop)
+      {
+      nav.style.top="-80px";
+      
+      }
+      else
+      {
+      nav.style.top="0px";
+      nav.setAttribute("style","background:rgba(255,255,255,0.9) !important;")
+      
+      }
+      
+      lastScrollTop=scrollTop;
+      })
+      
+   </script> 
+   
+   <script type="text/javascript">
+
+      $('.carousel').carousel({
+        interval: 4500, 
+        pause: "false"
+      });
+
+      $('#pauseButton').click(function () {
+        $('.carousel').carousel('pause');
+      });
+	  
+
+      $('#playButton').click(function () {
+        $('.carousel').carousel('cycle');
+      });
+    </script>
+    
+	
+	<!--
+	<script type="text/javascript">
+		const img = new Image();
+
+		}
+		img.src = document.GetElementByID('slideImg');
+	
+	
+	
+	
+		var controlLeft=document.GetElementByID('pauseButton').style.getPropertyValue('height');
+		var controlRight=document.GetElementByID('playButton').style.getPropertyValue('height');
+		
+		var image=this.height;
+		
+		if(controlLeft!=image)
+		{
+			document.getElementById('controlLeft').style.height=image;
+		}
+		if(controlRight!=image)
+		{
+			document.getElementById('controlRight').style.height=image;
+		}
+	</script>
+	-->
+	
+	
+	
+</body>
+</html>

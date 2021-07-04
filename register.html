@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	
+<!-- template block-->
+   <!-- Google Tag Manager -->
+   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-P68SJ4T');
+   </script>
+   <!-- End Google Tag Manager -->
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+   <!-- Font Awesome-->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <!-- My CSS -->
+   <link rel="stylesheet" type="text/css" href="/css/style.css">
+   <link rel="stylesheet" type="text/css" href="/css/responsive.css">
+   <link type="text/css" rel="stylesheet" href="/css/lightslider.css" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>
+      jQuery(document).ready(function( $ ) {
+          $('.counter').counterUp({
+              delay: 10,
+              time: 2000
+          });
+      });
+   </script>
+   <title>ProElm</title>
+   <link rel="icon"  href="/images/logo.jpg">
+   <!--script for include-->
+   <script>
+      function includeHTML() {
+        var z, i, elmnt, file, xhttp;
+        /*loop through a collection of all HTML elements:*/
+        z = document.getElementsByTagName("*");
+        for (i = 0; i < z.length; i++) {
+          elmnt = z[i];
+          /*search for elements with a certain atrribute:*/
+          file = elmnt.getAttribute("w3-include-html");
+          if (file) {
+            /*make an HTTP request using the attribute value as the file name:*/
+            xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+              if (this.readyState == 4) {
+                if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                /*remove the attribute, and call this function once more:*/
+                elmnt.removeAttribute("w3-include-html");
+                includeHTML();
+              }
+            }      
+            xhttp.open("GET", file, true);
+            xhttp.send();
+            /*exit the function:*/
+            return;
+          }
+        }
+      };
+      
+   </script>
+   <!--script for include end-->
+   <!-- template block end-->
+
+
+
+  
+</head>
+
+
+<body>
+<!-- navbar include command-->
+<div w3-include-html="/navbar.html"></div> 
+<script>
+includeHTML();
+</script>
+<!-- navbar include command end-->
+
+
+<p align="center"><iframe  width="860px" height= "2800px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAaMgnxFUQUk2TEEwUUhJTEFBSDlISlFHTFRZN1pCSy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" scrolling="no" style= "border: none; max-width:100%; max-height:100%" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+
+
+
+
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+<script src="js/lightslider.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    /*--------Course List ----------*/
+    $(".courseh-link").click(function()
+    {
+      const value=$(this).attr('data-filter');
+      if(value=="ALL")
+      {
+        $(".cardsc-item").show('1000');
+      }
+      else
+      {
+        $(".cardsc-item").not('.'+value).hide('1000');
+        $(".cardsc-item").filter('.'+value).show('1000');
+      }
+
+    });
+
+
+
+    /*-------Teachers List -----*/
+
+    var itemCount=3;
+    if ($(window).width() < 700){
+      itemCount=1;
+
+    }
+    else if($(window).width() < 1200)
+    {
+      itemCount=2;
+    }
+    else {
+     itemCount=3;
+   }
+   var autoplaySlider = $('#autoplay').lightSlider({
+     item:itemCount,
+     auto:true,
+     loop:true,
+     pauseOnHover: true,
+     onBeforeSlide: function (el) {
+      $('#current').text(el.getCurrentSlideCount());
+    } 
+  });
+   $('#total').text(autoplaySlider.getTotalSlideCount());
+
+ });
+
+
+
+
+
+</script>
+<script src="js/jquery.pagenav.js"></script>
+<script>
+  $(document).ready(function ()
+  {
+    $('.nav-link').pageNav({'scroll_shift':( $('nav').outerHeight() - 70)});
+    $('.all-coursebtn').pageNav({'scroll_shift':( $('nav').outerHeight() -120)}); 
+    $('.v-cource').pageNav({'scroll_shift':( $('nav').outerHeight() -100)}); 
+
+  });
+
+
+/*---------------NAVBAR-----------*/
+let lastScrollTop=0;
+let nav=document.getElementById("MyNavbar");
+let courseSticky=document.getElementsByClassName("course-sticky")[0];
+window.addEventListener("scroll",function()
+{
+  var scrollTop=window.pageYOffset || document.documentElement.scrollTop;
+
+  if(scrollTop>lastScrollTop)
+  {
+    nav.style.top="-80px";
+courseSticky.setAttribute("style","top:10px");
+  }
+  else
+  {
+      nav.style.top="0px";
+       nav.setAttribute("style","background:rgba(255,255,255,0.9) !important;");
+      courseSticky.setAttribute("style","top:90px");
+  }
+
+
+  lastScrollTop=scrollTop;
+})
+
+
+
+</script> 
+<body>

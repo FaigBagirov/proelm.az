@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<head>
+<head>
+<!-- template block-->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P68SJ4T');</script>
+<!-- End Google Tag Manager -->
+
+   <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css">
+
+    <link type="text/css" rel="stylesheet" href="/css/lightslider.css" />  
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function( $ ) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 2000
+            });
+        });
+</script>
+
+<title>ProElm</title>
+<link rel="icon"  href="/images/logo.jpg">
+
+<!--script for include-->
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+
+</script>
+<!--script for include end-->
+<!-- template block end-->
+  
+</head>
+
+
+<body>
+<!-- navbar include command-->
+<div w3-include-html="/en/navbar.html"></div> 
+<script>
+includeHTML();
+</script>
+<!-- navbar include command end-->
+
+<section style="margin-top: 0rem!important;" class="mt-5 pt-5 " id="OurCourse">
+      <div class="container mt-5">
+         <div style="margin-top: 0rem!important;" class="row mt-5 pt-2">
+            <div class="col-md-12 text-center">
+               <h1 class="head-title">Articles</h1>
+            </div>
+            <!--<div class="col-md-12 mt-5">
+               <div class="course-headers w-100">
+                  <ul id="courseh-ul">
+                     <li class="courseh-active courseh-link "  data-filter="all"> <a  href="#">Hamısı</a></li>
+                     <li class="courseh-link" data-filter="it"> <a href=".">IT</a></li>
+                     <li class="courseh-link" data-filter="sat"> <a href="#">Xaricdə Təhsil</a></li>
+                     <li class="courseh-link" data-filter="language"><a  href="#">Dillər</a></li>
+                     <!--<li class="courseh-link"  data-filter="programming"><a  href="#">Proqramlaşdırma</a></li> -->
+                  <!--   <li class="courseh-link" data-filter="internship"><a  href="#">Təcrübə imkanı</a>
+                     </li>
+					
+                  </ul>
+               </div>
+            </div>-->
+         </div>
+      </div>
+      <div class="container mt-5">
+         <div class="row">
+            <!--<div class="col-xl-4 col-md-6 col-sm-12 it administering internship cardsc-item"> 
+               <div class="card w-100" >
+
+                  <img src="/blog/images/blog_default_preview.png" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                     <h3 class="card-title">Təcrübə proqramı</h3>
+                     <p class="card-text">Embedded proqramçı olmaq istəyirsən?<br> Elə isə dərslərimizə qoşul və karyeranı qur !</p>
+                  </div>                
+				  <a class="read-more" href="/blog/internship.html">Məqaləni oxu</a>
+               </div>
+            </div>-->
+            <div class="col-xl-4 col-md-6 col-sm-12 it programming internship cardsc-item ">
+               <div class="card w-100" >
+                  <!--<div class="pop bg-danger"> -->
+
+                  <img src="/blog/images/blog_default_preview.png" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                     <h3 class="card-title">How do computers work? </h3>
+                     <p class="card-text">Why 1 and 0?</p>
+                  </div>
+ 
+                  <a class="read-more" href="/blog/why1and0.html">Read the article</a>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12 sat cardsc-item">
+               <div class="card w-100" >
+
+                  <img src="/blog/images/critReadBegin_preview.png" class="card-img-top" alt="...">
+                  <div class="card-body " >  
+                     <h3  id="articleTitle" style="font-size: 1.5rem; text-align:left;" class="card-title">How to prepare for Critical Reading?</h3>
+                     <p class="card-text">SAT exam preparation<br>Critical Reading is the hardest section of the SAT exam</p>
+                  </div>
+ 
+                  <a class="read-more" href="/blog/critreadbegin.html">Read the article</a>
+               </div>
+            </div>
+            <!--<div class="col-xl-4 col-md-6 col-sm-12 sat cardsc-item">
+               <div class="card w-100" >
+                  <img src="/blog/images/blog_default_preview.png" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                     <h3 class="card-title">Reserved</h3>
+                     <p class="card-text">Embedded proqramçı olmaq istəyirsən?<br> Elə isə dərslərimizə qoşul və karyeranı qur !</p>
+                  </div>
+   
+                  <a class="read-more" href="course1.html">Learn More</a>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12 language cardsc-item">
+               <div class="card w-100" >
+                  <img src="/blog/images/blog_default_preview.png" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                     <h3 class="card-title">Reserved</h3>
+                     <p class="card-text">İngilis dilini tum kimi çitlamaq istəyirsən?<br> İngilis dili kursuna qatıl, qısa müddətdə gözəl nəticələr əldə et</p>
+                  </div>
+
+                  <a class="read-more" href="course1.html">Learn More</a>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12 sat cardsc-item">
+               <div class="card w-100" >
+                  <img src="/blog/images/blog_default_preview.png" class="card-img-top" alt="...">
+                  <div class="card-body ">
+                     <h3 class="card-title">Reserved</h3>
+                     <p class="card-text">Embedded proqramçı olmaq istəyirsən?<br> Elə isə dərslərimizə qoşul və karyeranı qur !</p>
+                  </div>
+
+                  <a class="read-more" href="course1.html">Learn More</a>
+               </div>
+            </div>-->
+         </div>
+      </div>
+   </section>
+   
+<script src="/js/jquery.pagenav.js"></script>
+   <script>
+      $(document).ready(function ()
+      {
+          $('.nav-link').pageNav({'scroll_shift':( $('nav').outerHeight() - 70)});
+          $('.all-coursebtn').pageNav({'scroll_shift':( $('nav').outerHeight() -120)}); 
+          $('.v-cource').pageNav({'scroll_shift':( $('nav').outerHeight() -100)}); 
+         
+      });
+      /*--------------NAVBAR-------------*/
+      
+      
+      let lastScrollTop=0;
+      let nav=document.getElementById("MyNavbar");
+      window.addEventListener("scroll",function()
+      {
+      var scrollTop=window.pageYOffset || document.documentElement.scrollTop;
+      
+      if(scrollTop>lastScrollTop)
+      {
+      nav.style.top="-80px";
+      
+      }
+      else
+      {
+      nav.style.top="0px";
+      nav.setAttribute("style","background:rgba(255,255,255,0.9) !important;")
+      
+      }
+      
+      lastScrollTop=scrollTop;
+      })
+      
+   </script> 
+
+<body>

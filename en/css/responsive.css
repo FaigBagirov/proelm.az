@@ -1,0 +1,1049 @@
+@media screen and (max-width:476px)
+
+{
+	.navbar 
+	{
+    padding: 0rem 1rem !important;
+	}
+	
+	.header-top 
+	{
+		min-height: 1vh !important;
+	}
+	
+	header .header-top a, header .header-top span 
+	{
+		padding: 0px 1vh !important;
+		margin-top: 1vh !important;
+		margin-bottom: 1vh !important;
+		line-height: 25px !important;
+	}
+	
+	header .header-top .col-md-12:first-child
+	{
+		display: none; 
+	}
+	nav
+	{
+		min-height: 0px;
+	}
+	.navbar-brand img
+	{
+		height: 6.5vh;
+	}	
+		
+	.navbar-brand {
+		padding-top: 0rem; 
+		padding-bottom: 0rem;
+	}
+	.navbar-toggler 
+	{
+		padding: 0rem 0rem;
+	}
+
+	.carousel-caption
+	{
+		display: none;
+	}
+
+	#Carousel 
+	{
+		/*margin-bottom: 22vh;*/
+		height: auto;
+	}
+
+	#Carousel img 
+	{
+		height:0vh;
+		filter: grayscale(0%);
+	}
+
+	.carousel-control-prev, .carousel-control-next
+	{
+		/*display:none;*/
+		margin-top: 0vh;
+		height: 34vw;
+
+	}
+	
+
+	
+	.carousel-control-prev-icon
+	{
+		/*display:none;*/
+	}
+	
+	.carousel-control-next-icon
+	{
+		/*display:none;*/
+	}
+
+	.carousel-control-next
+	{
+		z-index: 1000!important;
+	}
+	.carousel-inner 
+	{
+		position: relative !important;
+		top: 0%;
+	}
+		
+	#responsiveCapt .field-name-field-display-title h5
+	{
+/*		font-family: "PT Sans Narrow",'Helvetica Neue',Arial,Helvetica,sans-serif;
+		margin-left: 1.2vh;
+		margin-bottom: 0.1rem;
+		font-size: 2.1vh;
+		<link href='https://fonts.googleapis.com/css?family=Bodoni Moda' rel='stylesheet'>*/
+		
+		font-family: Bodoni Moda, serif;
+		font-weight: bold;
+		margin-left: 1.2vh;
+		font-size: 2.5vh;
+	}
+	
+	.carousel-inner .field-name-field-intro 
+	{
+		font: 13px/1.231 arial,helvetica,clean,sans-serif;
+		margin-left: 1.2vh;
+		font-size: 2vh;
+	}
+
+	
+	.carousel-item.active 
+	{
+		min-height: 180px;
+		/* display: block; 
+		height: 30vh;
+		margin-bottom: 16vh;*/
+	}
+
+	.carousel-item img {
+		height: calc(100vh - 300px);
+
+	}
+
+	#Carousel:hover img
+	{
+		
+	 filter: grayscale(0%) !important;
+	}
+
+	.carousel-indicators 
+	{
+		z-index: 1001 !important;
+		position: absolute !important;
+		top: -1vh;
+		left: 0%;
+		height: min-content;
+	}
+
+	.carousel-indicators li {
+		z-index: 10001 !important;
+		width: 3.5vw !important;
+		height: 3.5vw !important;
+		border-radius: 50% !important;
+		margin-right: 10px;
+	}
+
+
+	#responsiveCapt
+	{
+		display: block;
+		overflow: hidden;
+	}
+	
+	#responsiveCapt .field-name-field-display-title h5
+	{
+/*		font-family: "PT Sans Narrow",'Helvetica Neue',Arial,Helvetica,sans-serif;
+		margin-left: 1.2vh;
+		margin-bottom: 0.1rem;
+		font-size: 2.1vh;
+		<link href='https://fonts.googleapis.com/css?family=Bodoni Moda' rel='stylesheet'>*/
+		
+		font-family: 'Roboto', sans-serif;
+		color: #8bb8ee;
+		font-weight: 500;
+		margin-left: 1.2vh;
+		font-size: 1.3rem;
+	}
+	
+	.carousel-inner .field-name-field-intro 
+	{
+		font: 13px/1.231 arial,helvetica,clean,sans-serif;
+		margin-left: 1.2vh;
+		font-size: 1rem;
+	}
+
+	#slide1 h5
+	{
+		/*bottom: 8vh !important;
+		padding-top: 2vh;
+		/*left: 138px;
+		position: relative;
+		color: rgba(45, 136, 243, 0.5);
+		font-weight: 900;
+		font-size: 30px;*/
+	}
+
+/*	#slide1 p
+	{
+		top: -8vh !important;
+	}	*/
+	
+	#slide2 h5
+	{
+		/*bottom: 8vh !important;
+		padding-top: 2vh;
+		/*left: 138px;
+		position: relative;
+		color: rgba(45, 136, 243, 0.5);
+		font-weight: 900;
+		font-size: 30px;*/
+	}
+
+	#slide2 p
+	{
+		/*top: -8vh !important;*/
+	}
+	
+	.carousel-caption 
+	{
+		display: none !important;
+		/*left: 14% !important;
+		top: 10% !important;
+		position: relative !important;	*/
+		background-color: transparent !important; 
+		color: black;
+		/*padding: 30px 40px;*/
+		background: rgba(240, 240, 240,0.6);
+		font-family: 'Nunito', sans-serif;
+		border-radius: 20px;
+		text-align: center !important;
+		right: 0% !important;
+		left: 0% !important;
+		top: -10vh !important;
+		bottom: 0% !important;
+		width: 85% !important;
+		height: 20px !important; 	
+		margin: auto;
+		padding-top: 0%;
+		padding-bottom: 0%;
+	}
+	.carousel-caption p
+	{
+		z-index:10000;
+		position: relative;
+		left:  0%;	
+		/*margin:50px 0px 50px;*/
+		font-size: 15px;
+		font-family: 'Nunito', sans-serif;
+		/*font-family: 'Helvetica', 'Arial', sans-serif !important;*/
+		margin-top: 0px;
+		color: rgba(70, 70, 70, 0.8);
+		text-shadow: 0 0 30px rgba(128, 128, 128, 0.8);
+		/*margin-left: 0%;
+		margin-top: 0%;*/
+
+		Width: 92%;
+		border-top: 2px solid rgba(45, 136, 243, 0) !important;
+		/*border-bottom: 2px solid rgba(45, 136, 243, 0.5) !important;*/
+		border-bottom: 2px solid rgba(170, 170, 170, 0) !important;
+		border-left: 2px solid rgba(45, 136, 243, 0) !important;
+		border-right: 2px solid rgba(45, 136, 243, 0) !important;
+	}
+
+
+	.carousel-caption h5
+	{
+		display: flex !important;
+		justify-content: center !important;
+		z-index: 0;
+		/*position: absolute !important;
+		top: -23px !important;
+		left: 80px !important;*/
+		width: 100% !important;
+		color: #221638;
+		font-weight: 900;
+		font-size: 17px !important;
+		right: 0% !important;
+		left: 0% !important;
+		top: 0% !important;
+		bottom: 4vh !important;
+		padding-top: 2vh !important;
+		margin: auto;
+		
+
+	}
+
+	.carousel-caption a
+	{
+		display: none;
+		z-index: -1000;
+		display: none;
+		padding: 10px 15px !important;
+		font-size: 15px;
+		border-radius: 10px;
+	}
+
+	.myCarousel-textDiv
+	{
+			/*left: 14% !important;
+		top: 10% !important; */
+		position: relative !important;
+		color: black;
+		/*padding: 30px 40px;*/
+		background: rgba(240, 240, 240,0.6);
+		font-family: 'Nunito', sans-serif;
+		border-radius: 20px;
+		display: block !important;	
+		background-color: transparent !important;    
+		text-align: center !important;
+		right: 0% !important;
+		left: 0% !important;
+		top: 0vh !important;
+		bottom: 0% !important;
+		width: auto !important;
+		height: auto !important; 
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+		left: 0% !important;
+		top: 14vh !important;
+		margin-top: 3vh;
+	}
+	
+	.myCarousel-textDiv p
+	{		
+		z-index: 0;
+		position: relative !important;
+
+		/*text-align: center;
+		margin:10px 0px 10px;*/
+		width: 100% !important;
+		color: black !important;
+		font-size: 15px;
+		font-family: 'Nunito', sans-serif;
+		text-shadow: 0 0 20px rgba(128, 128, 128, 1) !important;
+		right: 0% !important;
+		left: 0% !important;
+		top: 0vh !important;
+		bottom: 0% !important;
+		margin: auto;
+	}
+
+	#Kurslarimiz
+	{
+		margin-top: 0rem !important;
+	}
+
+	.head-title
+	{
+		font-size: 24px !important;
+	}
+
+	#OurCourse .courseh-active:before {
+
+		bottom: -5px !important;
+		left: -5px !important;
+
+	}
+
+	#OurCourse .courseh-active:after {
+		top: -5px !important;
+		right: -5px !important;
+	}
+
+	#OurCourse .course-headers ul li
+	{
+		margin: 0px 3px !important;
+	}
+
+	#OurCourse .course-headers ul li a 
+	{
+		font-size: 9px !important;
+		
+	}
+	
+    #OurCourse .card-title 
+	{
+		margin-bottom: 0rem;
+	}
+	
+	#OurCourse 
+	{
+		padding-bottom: 1rem!important;
+
+		margin-bottom: 1rem!important;
+	}
+	
+	#OurTeachers  {
+    padding-top: 0rem!important;
+	}
+	
+	#OurCourse .card-body 
+	{
+		padding: 1vh 2vh 1vh !important;
+		min-height: 100px !important;
+	}
+
+	#OurCourse .card-body h3 {
+    /* color: #03a9f4 !important; */
+    /* font-family: 'Dosis', sans-serif; */
+    font-size: 1.3rem;
+}
+
+	#OurCourse .card-body p {
+		padding: 0vh 1vh 0vh;
+	}
+
+	#courseFilter
+	{
+	margin-top: 1rem!important;
+	}
+
+	#coursePreviews
+	{
+		/*margin-top: -50px !important;*/
+	}
+	
+	
+	.course-headers ul
+	{
+		
+		justify-content: space-between;
+
+	}
+	.course-headers ul li a
+	{ 
+		
+		margin: 0px -5px;;
+	}
+
+	
+	#OurCourse .container 
+	{
+		margin-top: 0rem!important;
+	}
+	
+	#OurCourse .card-title {
+		/* margin-bottom: 0.75rem; */
+		text-align: center;
+	}
+	
+	#OurCourse .card-footer 
+	{ 
+		padding: 0px 0px 0px !important;
+		line-height: 1.4;
+	}
+	#OurCourse .card-footer span 
+	{
+		font-size: 2.5vh;
+		
+	}
+	
+	#OurCourse .card-footer div {
+		border-right: 0px solid #e6e6e6 !important;
+		padding: 0px 2vh;
+}
+
+	#OurCourse .read-more
+	{
+		height: 8vh;
+		width: 100%;
+		display: block;
+		text-decoration: none !important;
+		font-family: 'Dosis', sans-serif;
+		font-size: 1.5rem;
+		color: white;
+		font-weight: 500;
+		line-height: 8vh;
+		position: relative;
+		bottom: 0px;
+		transition: bottom 0.3s,background 0.1s;
+		transition-timing-function: linear;
+		background: #00BCD4;
+		text-align: center;
+		border-bottom-left-radius: 35px !important;
+		border-bottom-right-radius: 35px !important;		
+	}
+
+	#OurCourse .read-more:hover
+	{
+		background: #ec296b;
+		color: white !important;
+	}
+	
+	#AboutUs .p-5 
+	{
+		padding-top: 0rem!important;
+		padding-bottom: 0rem!important;
+		padding-right: 3rem!important;
+		padding-left: 3rem!important;
+	}
+	#AboutUs .pt-5
+	{
+		padding-top: 4rem!important;
+	}	
+	
+	#AboutUs .pb-5, .py-5 
+	{
+		padding-bottom: 0rem!important;
+	}
+
+	#AboutUs h2 {
+    /* color: #002447; */
+    /* margin: 8px 0px; */
+    font-size: 3vh;
+	}
+
+	.counter-icon
+	{
+		margin-left: 39%;
+	}
+	#Contact 
+	{
+		margin-top: 0px;
+	}
+	
+	
+	#Contact .container
+	{
+		flex-direction: column !important;
+		min-width: 200px;
+		justify-content: flex-start;
+		align-items: flex-start;
+		min-height: 420px !important;
+	}
+
+	#Contact .contactinfo
+	{
+
+		padding: 0px !important;
+	}	
+	
+		#Contact .contactinfo h2 
+	{
+		margin: 10px auto !important;
+		width: 10rem;
+	}
+	
+	#Contact .contactinfo .info li {
+    /* position: relative; */
+    width: 70%;
+    /* list-style: none; */
+    /* display: flex; */
+    margin: 30px auto;
+    /* cursor: pointer; */
+    /* align-items: flex-start; */
+	}
+	
+	#Contact .container .contactinfo
+	{
+		position: relative;
+		width: 100%;
+
+	}
+	#Contact .container .contactForm
+	{
+		display: none;
+		position: relative;
+		padding: 70px 50px ;
+		background:#fff;
+		margin-left: 0px;
+		margin-top: 80px;
+		padding-left: 20px;
+		width: 100%;
+		height: 100%;
+
+
+	}
+	#Contact .container .contactForm .formBox
+	{
+		flex-direction: column;
+
+	}
+	#Contact .container .contactForm .formBox .inputBox.w50
+	{
+		width: 100%;
+	}
+	#Contact .container .contactForm .formBox .inputBox
+	{
+		margin-bottom: 50px;
+	}
+	.foot-title
+	{
+		text-align: center;
+	}
+	footer ul li
+	{
+		text-align: center;
+		margin-bottom: 20px;
+
+	}
+	.foot-title::after
+	{
+		content: '';
+		position: absolute;
+		width:30%;
+		height: 2px;
+		background: #fe4a55;
+		bottom: -15px;
+		left:35%;
+	}
+	.footer-about p
+	{
+		text-align: center;
+	}
+	footer ul li a
+	{
+		border-bottom: 1px solid rgba(255,255,255,.7);
+		
+	}
+	.about-list
+	{
+	 flex-direction: column;
+	}
+	.about-list li
+	{
+		width: 100% !important;
+		text-align: left;
+	}
+	.modal-content
+	{
+		width: 100% !important;
+	}
+	
+	.about-title
+	{
+		font-size: 4.5vh;
+	}
+	.about-img
+	{
+		height: 400px;
+		position: relative;
+	}
+	.about-img:before
+	{
+		position: absolute;
+		content: "";
+		left: -10px;
+		top: 50px;
+		border:10px solid rgba(0,0,0,0.5);
+		width: 74.5%;
+		height: 99.7%;
+	}
+	.course-sticky
+	{
+		margin-top: 100px;
+		padding-left: 0px;
+	}
+	.teacher-details
+	{
+		margin-top: 50px;
+	}
+	 
+	#articleTitle
+	{
+		font-size: 5vw !important;
+	}
+	
+	
+	#blogBody
+	{
+		position: relative;
+		position: absolute;
+		width: 100%;
+		min-width: 100%
+	}
+	
+	#blogTopics
+	{
+		padding: 30px 0px;
+	}
+	
+	#blogTitleSpan
+	{
+		display: none;
+	}
+	
+	#blogNavList
+	{
+		display:none;
+	}	
+	
+	
+}
+	
+	
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+	
+	@media screen and (max-width:1200px ) and (min-width: 470px)
+	{
+		
+	#upperPanel
+	{
+		justify-content: flex-end !important; 
+	}
+
+	#upperPanel {
+		justify-content: flex-end !important;
+	}
+
+	header .header-top  a,span
+	{
+		border:none !important;
+		margin-left: 0px;
+	}
+	
+	header .header-top .col-md-12:first-child
+	{
+	border-bottom: 1px solid lightgray;
+	}
+
+	#Carousel 
+	{
+		 height:auto;
+	}
+
+	.carousel-indicators 
+	{
+		z-index: 1001 !important;
+		position: absolute !important;
+		top: 0vw;
+		left: 0%;
+		height: min-content;
+		
+	}
+
+	.carousel-indicators li {
+		z-index: 10001 !important;
+		width: 1.14rem !important; 
+		height: 1.1rem !important;
+		border-radius: 50% !important;
+		margin-right: 10px;
+	}
+ 
+	#slide1, #slide1 h5, #slide1 p, #slide1 a
+	{
+		left: 0px !important;
+		padding: 0vh !important;
+		width: 70% !important;
+		margin:auto !important;
+		border-bottom: 2px solid rgba(170, 170, 170, 0) !important;
+	}
+	
+	#slide2, #slide2 h5, #slide2 p, #slide2 a
+	{
+		left: 0px !important;
+		padding: 0vh !important;
+		width: 70% !important;
+		margin:auto !important;
+		border-bottom: 2px solid rgba(170, 170, 170, 0) !important;
+	}
+
+	#slide3, #slide3 h5, #slide3 p, #slide3 a
+	{
+		left: 0px !important;
+		padding: 0vh !important;
+		width: 70% !important;
+		margin:auto !important;
+		border-bottom: 2px solid rgba(170, 170, 170, 0) !important;
+	}
+
+	#slide4, #slide4 h5, #slide4 p, #slide4 a
+	{
+		left: 0px !important;
+		padding: 0vh !important;
+		width: 70% !important;
+		margin:auto !important;		
+		border-bottom: 2px solid rgba(170, 170, 170, 0) !important;
+	}
+
+
+	.carousel-caption 
+	{
+		display: none !important;
+		/*left: 14% !important;
+		top: 10% !important;
+		position: relative !important;	*/
+		background-color: transparent !important; 
+		color: black;
+		/*padding: 30px 40px;*/
+		background: rgba(240, 240, 240,0.6);
+		font-family: 'Nunito', sans-serif;
+		border-radius: 20px;
+		text-align: center !important;
+		right: 0% !important;
+		left: 0% !important;
+		top: -10vh !important;
+		bottom: 0% !important;
+		width: 70% !important;
+		height: 20px !important; 	
+		
+		margin: auto;
+		padding-top: 0%;
+		padding-bottom: 0%;
+	}
+	.carousel-caption p
+	{
+		z-index:10000;
+		position: relative;
+		left:  0%;	
+		/*margin:50px 0px 50px;*/
+		font-size: 15px;
+		font-family: 'Nunito', sans-serif;
+		/*font-family: 'Helvetica', 'Arial', sans-serif !important;*/
+		margin-top: 0px;
+		color: rgba(0, 0, 0, 1);
+		text-shadow: 0 0 3px rgba(255, 255, 255, 0.5) !important;
+		/*margin-left: 0%;
+		margin-top: 0%;*/
+
+		Width: 70%;
+	}
+
+	/*.carousel-caption p::before {
+	  content: "";
+	  position: absolute;
+	  left: 0;
+	  right: 0;
+	  background: rgba(128, 128, 128, 0.5);
+	  width: 99%;
+	  margin:auto;
+	  height: 100%;
+	  -webkit-filter: blur(5px);
+	  -moz-filter: blur(5px);
+	  -o-filter: blur(5px);
+	  -ms-filter: blur(5px);
+	  filter: blur(5px);
+	}*/
+	
+	.carousel-caption h5
+	{
+		color: rgba(0, 0, 0, 1) !important;
+		display: flex !important;
+		justify-content: center !important;
+		z-index: 0;
+		/*position: absolute !important;
+		top: -23px !important;
+		left: 80px !important;*/
+		width: 70% !important;
+		color: #221638;
+		font-weight: 900;
+		font-size: 17px !important;
+		right: 0% !important;
+		left: 0% !important;
+		top: 0% !important;
+		bottom: 4vh !important;
+		padding-top: 2vh !important;
+		margin: auto;
+		text-shadow: 0 0 3px rgba(255, 255, 255, 0.5) !important;
+
+	}
+
+
+
+	.carousel-caption a
+	{
+		display: none;
+		z-index: -1000;
+		display: none;
+		padding: 0px 0px !important;
+		font-size: 15px;
+		border-radius: 10px;
+		width: 70% !important;
+	}
+
+	.myCarousel-textDiv
+	{
+		/*left: 14% !important;
+		top: 10% !important; */
+		position: relative !important;
+		color: black;
+		/*padding: 30px 40px;*/
+		background: rgba(240, 240, 240,0.6);
+		font-family: 'Nunito', sans-serif;
+		border-radius: 20px;
+		display: block !important;	
+		background-color: transparent !important;    
+		text-align: center !important;
+		right: 0% !important;
+		left: 0% !important;
+		top: 0vh !important;
+		bottom: 0% !important;
+		width: auto !important;
+		height: auto !important; 
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+		left: 0% !important;
+		top: 14vh !important;
+		margin-top: 3vh;
+	}
+	
+	.myCarousel-textDiv p
+	{		
+		z-index: 0;
+		position: relative !important;
+
+		/*text-align: center;
+		margin:10px 0px 10px;*/
+		width: 100% !important;
+		color: black !important;
+		font-size: 15px;
+		font-family: 'Nunito', sans-serif;
+		text-shadow: 0 0 20px rgba(128, 128, 128, 1) !important;
+		right: 0% !important;
+		left: 0% !important;
+		top: 0vh !important;
+		bottom: 0% !important;
+		margin: auto;
+	}
+	
+	.carousel-control-prev, .carousel-control-next
+	{
+		position: absolute !important;
+		/*top: -19vh;*/
+		
+		margin-top: 0vh;
+		height: 34vw; 
+	}
+
+	#responsiveCapt
+	{
+		display: block;
+		overflow: hidden;
+	}
+	#responsiveCapt .field-name-field-display-title h5 {
+	/*	font-family: "PT Sans Narrow",'Helvetica Neue',Arial,Helvetica,sans-serif;
+		margin-left: 1.2vh;
+		margin-bottom: 0.1rem;
+		font-size: 2.5vh;
+	*/
+		font-family: 'Roboto', sans-serif;
+		color: #8bb8ee;
+		font-weight: 500;
+		margin-left: 1.2vh;
+		font-size: 1.3rem;
+	}
+	
+	.carousel-inner .field-name-field-intro 
+	{
+		font: 13px/1.231 arial,helvetica,clean,sans-serif;
+		margin-left: 1.2vh;
+		font-size: 1rem;
+	}
+	
+	#OurCourse .courseh-active:before {
+
+		bottom: -5px !important;
+		left: -5px !important;
+
+	}
+
+	#OurCourse .courseh-active:after {
+		top: -5px !important;
+		right: -5px !important;
+	}
+
+	
+	#Contact .container
+	{
+		flex-direction: column !important;
+			min-width: 200px;
+		justify-content: flex-start;
+		align-items: flex-start;
+		min-height: 420px !important;
+	}
+	/*
+#Contact .contactinfo 
+{
+		padding: 0px;
+	}*/
+
+	#Contact .container .contactinfo
+	{
+		position: relative;
+		width: 70%;
+		left: 15%;
+	}
+	
+	#Contact .contactinfo h2 
+	{
+		margin: 0px auto !important;
+		width: 10rem;
+}
+		
+	#Contact .contactinfo .info li {
+    /* position: relative; */
+    width: 70%;
+    /* list-style: none; */
+    /* display: flex; */
+    margin: 30px auto;
+    /* cursor: pointer; */
+    /* align-items: flex-start; */
+	}
+	
+	#Contact .container .contactForm
+	{
+		position: relative;
+		padding: 70px 50px 0px;
+		background:#fff;
+		margin-left: 0px;
+		margin-top: 80px;
+		padding-left: 20px;
+		width: 100%;
+		height: 80%;
+	}
+	#Contact .container .contactForm .formBox
+	{
+		flex-direction: column;
+
+	}
+	#Contact .container .contactForm .formBox .inputBox.w50
+	{
+		width: 100%;
+	}
+	#Contact .container .contactForm .formBox .inputBox
+	{
+		margin-bottom: 50px;
+	}
+	.about-img
+	{
+		height: 400px;
+	}
+	.about-img:before
+	{
+		position: absolute;
+		content: "";
+		left: -10px;
+		top: 80px;
+		border:10px solid rgba(0,0,0,0.5);
+		width: 80%;
+		height: 85%;
+	}
+	.all-coursebtn
+	{
+		top: 40px;
+		left: 20%;
+	}
+
+	#articleTitle
+	{
+		font-size: 3.5vw !important;
+	}
+	
+	#blogNavList
+	{
+		display:none;
+	}
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 768px)
+.justify-content-md-between 
+{
+	
+}

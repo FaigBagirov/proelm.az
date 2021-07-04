@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!--head load-->
+<div id="head-placeholder">
+</div>
+<script>
+$(function(){
+  $("#head-placeholder").load("head.html");
+});
+</script>
+<!--end of head load-->
+<link rel="icon"  href="images/logo.jpg">
+
+<!--init for my wysiwyg editor-->
+<script src="https://cdn.tiny.cloud/1/y2qlz48u85tv3xnouw35ee53ljvv0ammkzsgclukvnkwzz6g/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+  </script>
+  <script>
+    tinymce.init({
+  selector: '#mytextarea',
+  toolbar: 'image save export code',
+  plugins: 'image imagetools save export code'
+
+
+
+    });
+  </script>
+  
+</head>
+
+
+<body>
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("navbar.html");
+});
+</script>
+<!--end of Navigation bar-->
+
+<!--my wysiwyg editor-->
+  <h1>TinyMCE Quick Start Guide</h1>
+  <form method="post">
+    <textarea id="mytextarea" name="mytextarea">
+      Hello, World!
+    </textarea>
+  </form>
+<body>

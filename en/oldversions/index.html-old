@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P68SJ4T');</script>
+<!-- End Google Tag Manager -->
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />  
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function( $ ) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 2000
+            });
+        });
+    </script>
+  
+    <title>ProElm</title>
+    <link rel="icon"  href="images/logo.jpg">
+	
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P68SJ4T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <header id="Home">
+        <div class="header-top" >
+            <div class="container">
+                <div class="row ">
+                    <div class="col-sm-12 col-md-12 col-xl-6">
+                        <div class="d-flex justify-content-md-between justify-content-xl-start w-100  ">
+                            <span> <i class="fas fa-business-time"></i> &nbsp; Fərqli Kurslar</span>
+                            <a href="mailto:proelm.az@gmail.com"><i class="fas fa-envelope"></i>&nbsp; proelm.az@gmail.com  </a>
+                            <a href="#" class="border-0"><i class="fas fa-phone-alt"></i>&nbsp;+994505800046 </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-xl-6">
+                        <div class="d-flex justify-content-center justify-content-md-between justify-content-xl-end">
+
+                           <a href="#"><i class="fab fa-facebook-f"></i></a>
+                           <a href="#"><i class="fab fa-instagram"></i></a>   
+                           <a href=""><i class="fab fa-youtube"></i></a>
+                           <a class="call-backbtn" data-toggle="modal" data-target="#exampleModalCenter"><i  class="fas fa-phone-volume mr-2"></i> Call Back</a>
+                       </a>
+
+                       <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle">Biz sizə zəng edəcəyik...</h5>
+                                <button type="button" class="cls btn" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                          </div>
+                          <div class="modal-body">
+                            <form action="/action_page.php" class="was-validated">
+                                <div class="form-group">
+                                  <label for="uname">Ad,Soyad:</label>
+                                  <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                                  <div class="valid-feedback"></div>
+                                  <div class="invalid-feedback">Zəhmət olmasa boş saxlamayın!</div>
+                              </div>
+                              <div class="form-group">
+                                  <label for="pwd">Telefon:</label>
+                                  <input type="tel" class="form-control" id="pwd" placeholder="Enter number" name="pswd" required>
+                                  <div class="valid-feedback">Valid.</div>
+                                  <div class="invalid-feedback">Zəhmət olmasa boş saxlamayın!</div>
+                              </div>
+                              <div class="form-group text-center">
+                                <button type="submit" class="btn btn-success ">Zəngimizi gözləyin</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+</div>
+</div>
+</div>
+</header>
+<nav id="MyNavbar" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img width="60px" height="60px" src="images/logo.jpg"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+		<li class="nav-item ">
+            <a class="nav-link" href="#Home">Ana Səhifə <span class="sr-only">(current)</span></a>
+        </li>
+        		<li class="nav-item active">
+        <a class="nav-link" href="http://proelm.az/register.html">Qeydiyyat!</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#OurCourse">Kurslar</a>
+        </li>
+
+		<li class="nav-item">
+            <a class="nav-link" href="#OurTeachers">Müəllimlərimiz</a>
+        </li>
+	
+		<li class="nav-item">
+            <a class="nav-link" href="#AboutUs">Haqqımızda</a>
+        </li>
+        
+		<li class="nav-item">
+            <a class="nav-link" href="#Contact">Əlaqə</a>
+        </li>
+
+    </ul>
+
+</div>
+</div>
+</nav> 
+
+<section id="Carousel">
+  <div class="container-fluid">
+    <div class="row">
+<div id="myCarousel" class="carousel slide w-100" data-ride="carousel" data-pause='hover'>
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/carousel1.jpg" alt="First slide">
+       <div class="carousel-caption d-none d-md-block">
+    <h5>Məşhur şirkətlərdə təcrübə</h5>
+    <p> ProElm Tədris Mərkəzi məşhur şirkətlərlə əməkdaşlıq əsasında sizi təcrübə prqramı ilə təmin edir</p>
+      <a href="#OurCourse"  class="btn btn-danger v-cource">View Courses</a>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/carousel2.jpg" alt="Second slide">
+           <div class="carousel-caption d-none d-md-block">
+    <h5>Lorem Ipsum </h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+    <a href="#OurCourse" class="btn btn-danger v-cource">View Courses</a>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/carousel3.jpg" alt="Third slide">
+     <div class="carousel-caption d-none d-md-block">
+    <h5>Lorem Ipsum </h5>
+    <p> Third slide text here</p>
+     <a href="#OurCourse" class="btn btn-danger v-cource">View Courses</a>
+  </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="mt-5 pt-5 " id="OurCourse">
+    <div class="container mt-5">
+        <div class="row mt-5 pt-2">
+
+            <div class="col-md-12 text-center">
+                <h1 class="head-title">Kurslarımız</h1>
+
+            </div> 
+            <div class="col-md-12 mt-5">
+                <div class="course-headers w-100">
+                    <ul id="courseh-ul">
+                        <li class="courseh-active courseh-link "  data-filter="all"> <a  href="#">Hamısı</a></li>
+						<li class="courseh-link" data-filter="it"> <a href="#">IT</a></li>
+                        <li class="courseh-link" data-filter="sat"> <a href="#">Xarcidə Təhsil</a></li>
+                        <li class="courseh-link" data-filter="language"><a  href="#">Dillər</a></li>
+                        <!--<li class="courseh-link"  data-filter="programming"><a  href="#">Proqramlaşdırma</a></li> -->
+						<li class="courseh-link" data-filter="internship"><a  href="#">Təcrübə imkanı</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+
+    </div>
+    <div class="container mt-5">
+        <div class="row justify-content-between ">
+
+            <div class="col-xl-4 col-md-6 col-sm-12 it administering internship cardsc-item">
+                <div class="card w-100" >
+                   <div class="pop bg-info"> 
+                    45%                         
+                </div>
+                <img src="images/itprof_main.jpg" class="card-img-top" alt="...">
+                <div class="card-body ">
+                    <h3 class="card-title">IT Professional</h3>
+                    <p class="card-text">Embedded proqramçı olmaq istəyirsən?<br> Elə isə dərslərimizə qoşul və karyeranı qur !</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <div>
+                        <p>Age</p>
+                        <span>14-65 yaş</span>
+                    </div>
+                    <div>
+                        <p>Time</p>
+                        <span>6 Ay</span>
+                    </div>
+                    <div>
+                        <p>Price</p>
+                        <span>140 Azn/Aylıq</span>
+                    </div>
+                </div>
+                <a class="read-more" href="itprof.html">Learn More</a>
+            </div>
+        </div> 
+
+            <div class="col-xl-4 col-md-6 col-sm-12 it programming internship cardsc-item ">
+                <div class="card w-100" >
+                    <!--<div class="pop bg-danger"> -->
+					<div class="pop bg-info">
+                        50%                         
+                    </div>  
+                    <img src="images/ccppe_main.jpg" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <h3 class="card-title">C/C++ embedded</h3>
+                        <p class="card-text">Embedded proqramçı olmaq istəyirsən?<br> Elə isə dərslərimizə qoşul və karyeranı qur !</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <div>
+                            <p>Age</p>
+                            <span>14-65 yaş</span>
+                        </div>
+                        <div>
+                            <p>Time</p>
+                            <span>6 Ay</span>
+                        </div>
+                        <div>
+                            <p>Price</p>
+                            <span>140 Azn/Aylıq</span>
+                        </div>
+                    </div>
+                    <a class="read-more" href="ccppe.html">Learn More</a>
+                </div>
+            </div> 
+
+			<div class="col-xl-4 col-md-6 col-sm-12 sat cardsc-item">
+                <div class="card w-100" >
+                     <div class="pop bg-info"> 
+                        30%                         
+                    </div> 
+                    <img src="images/carousel3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <h3 class="card-title">SAT Math + Verbal</h3>
+                        <p class="card-text">Xaricdə oxumaq istəyənlər üçün<br>SAT - xaricdə təhsil üçün zalım olan imtahana hazırlıq kursu </p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <div>
+                            <p>Age</p>
+                            <span>18-24 yaş</span>
+                        </div>
+                        <div>
+                            <p>Time</p>
+                            <span>5 Ay</span>
+                        </div>
+                        <div>
+                            <p>Price</p>
+                            <span>220 Azn/Aylıq</span>
+                        </div>
+                    </div>
+                    <a class="read-more" href="sat.html">Learn More</a>
+                </div>
+            </div> 
+
+    <div class="col-xl-4 col-md-6 col-sm-12 sat cardsc-item">
+        <div class="card w-100" >
+          <img src="images/carousel3.jpg" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <h3 class="card-title">SAT Math</h3>
+            <p class="card-text">Embedded proqramçı olmaq istəyirsən?<br> Elə isə dərslərimizə qoşul və karyeranı qur !</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+            <div>
+                <p>Age</p>
+                <span>18-24 yaş</span>
+            </div>
+            <div>
+                <p>Time</p>
+                <span>2 Ay</span>
+            </div>
+            <div>
+                <p>Price</p>
+                <span>200 Azn/Aylıq</span>
+            </div>
+        </div>
+        <a class="read-more" href="course1.html">Learn More</a>
+    </div>
+</div> 
+
+        <div class="col-xl-4 col-md-6 col-sm-12 language cardsc-item">
+            <div class="card w-100" >
+              <img src="images/carousel3.jpg" class="card-img-top" alt="...">
+              <div class="card-body ">
+                <h3 class="card-title">İngilis dili</h3>
+                <p class="card-text">İngilis dilini tum kimi çitlamaq istəyirsən?<br> İngilis dili kursuna qatıl, qısa müddətdə gözəl nəticələr əldə et</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+                <div>
+                    <p>Age</p>
+                    <span>18-24 yaş</span>
+                </div>
+                <div>
+                    <p>Time</p>
+                    <span>2 Ay</span>
+                </div>
+                <div>
+                    <p>Price</p>
+                    <span>80 Azn/Aylıq</span>
+                </div>
+            </div>
+            <a class="read-more" href="course1.html">Learn More</a>
+        </div>
+    </div> 
+
+<div class="col-xl-4 col-md-6 col-sm-12 sat cardsc-item">
+    <div class="card w-100" >
+      <img src="images/carousel3.jpg" class="card-img-top" alt="...">
+      <div class="card-body ">
+        <h3 class="card-title">Sat Verbal</h3>
+        <p class="card-text">Embedded proqramçı olmaq istəyirsən?<br> Elə isə dərslərimizə qoşul və karyeranı qur !</p>
+    </div>
+    <div class="card-footer d-flex justify-content-between">
+        <div>
+            <p>Age</p>
+            <span>18-24 yaş</span>
+        </div>
+        <div>
+            <p>Time</p>
+            <span>2 Ay</span>
+        </div>
+        <div>
+            <p>Price</p>
+            <span>200 Azn/Aylıq</span>
+        </div>
+    </div>
+    <a class="read-more" href="course1.html">Learn More</a>
+</div>
+</div> 
+
+</div>
+</div>
+
+</section>
+
+
+<section id="OurTeachers" class="mt-2 pt-5">
+
+ <div class="container">
+     <div class="row ">
+         <div class="col-md-12 text-center">
+             <h1 class="head-title">Müəllimlərimiz</h1>      
+         </div>
+     </div>
+
+     <div id="autoplay" class="cs-hidden mt-5">
+
+       <div class="item-cor">
+          <div class="card" >
+             <div class="img1">
+                <img src="images/faigb_field.jpg">
+            </div>
+            <div class="img2">
+             <img src="images/faigb_photo.jpg">
+         </div>
+         <div class="main-text">
+             <h2>Faiq Bağırov</h2>
+             <h4>IT Specialist</h4>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut </p>
+         </div>
+         <div class="socials">
+           <i class="fab fa-facebook-f"></i>
+           <i class="fab fa-linkedin-in"></i>
+           <i class="fab fa-twitter"></i>
+
+       </div>
+   </div>
+</div>
+
+<div class="item-cor">
+  <div class="card" >
+     <div class="img1">
+        <img src="images/elzab_field.jpg">
+    </div>
+    <div class="img2">
+     <img src="images/elzab_photo.jpg">
+ </div>
+ <div class="main-text">
+     <h2>Elza Bağırova </h2>
+     <h4>English Teacher</h4>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut </p>
+ </div>
+ <div class="socials">
+   <i class="fab fa-facebook-f"></i>
+   <i class="fab fa-linkedin-in"></i>
+   <i class="fab fa-twitter"></i>
+
+</div>
+</div>
+</div>
+<!--
+<div class="item-cor">
+  <div class="card" >
+     <div class="img1">
+        <img src="images/carousel1.jpg">
+    </div>
+    <div class="img2">
+     <img src="images/carousel2.jpg">
+ </div>
+ <div class="main-text">
+     <h2>Filankes Filankesov</h2>
+     <h4>Web Developer</h4>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut </p>
+ </div>
+ <div class="socials">
+   <i class="fab fa-facebook-f"></i>
+   <i class="fab fa-linkedin-in"></i>
+   <i class="fab fa-twitter"></i>
+
+</div>
+</div>
+</div> 
+-->
+</div>
+
+
+</div>
+
+
+
+
+</section>
+
+<section id="AboutUs" class="mt-5 "> 
+
+        <div class="container"> 
+            <div class="row">   
+                  <div class="col-md-12 text-center">
+                <h1 class="head-title mb-5">Haqqımızda</h1>
+
+            </div> 
+            </div>  
+            <div class="row">   
+                <div class="col-12 col-md-12 col-xl-6 ">  
+                    <div class="p-5 mt-3 about-img" >
+                        <img  src="images/library.jpg" class="w-100 ">
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-xl-6">  
+                        <div class="pt-5 pb-5 about-right">   
+                            <span class="about-title">DISTANCE LEARNING</span>
+                            <h2 >Develop Your Skills, Learn Something New, and Grow Your Skills From Anywhere in the World!</h2>
+                            <p>We understand better that online-based learning can make a significant change to reach students from all over the world! Giving options to learn better always can offer the best outcomes!​</p>
+
+                               <ul class="about-list">
+                                   <li>
+                                       <span>
+                                          <i class="fas fa-chalkboard-teacher "></i>
+                                           Expert Instructors
+                                       </span>
+                                   </li>
+                                    <li>
+                                       <span>
+                                          <i class="far fa-calendar-times "></i>
+                                        Lifetime Access
+                                       </span>
+                                   </li>
+                                    <li>
+                                       <span>
+                                        <i class="fas fa-laptop-house "></i>
+                                           Remote Learning
+                                       </span>
+                                   </li>
+                                    <li>
+                                       <span>
+                                         <i class="fas fa-portrait "></i>
+                                           Self Development
+                                       </span>
+                                   </li>
+                               </ul>
+                                <a href="#OurCourse" class="all-coursebtn"> 
+                                View Courses    </a>
+                        </div>
+
+                </div>
+
+            </div> 
+        </div>  
+
+</section>
+
+<section id="Counters" class="mt-5">  
+    <div class="overlay w-100">
+        <div class="container h-100">
+            <div class="row h-100 justify-content-around align-items-center">    
+                <div class="col-xl-3 col-md-6 col-12"> 
+                    <div class="counter-up">    
+                        <div class="counter-icon"> <i class="fas fa-users fa-2x"></i>  </div>
+                        <h5> Total Learns </h5>
+                        <h3 class="counter">  142</h3>
+                    </div>  
+                </div>
+                <div class="col-xl-3 col-md-6 col-12"> 
+                    <div class="counter-up">    
+                        <div class="counter-icon"><i class="fas fa-user-graduate fa-2x"></i>  </div>
+                        <h5> Total Graduets </h5>
+                        <h3 class="counter">  365</h3>
+                    </div>  
+                </div>
+                <div class="col-xl-3 col-md-6 col-12"> 
+                    <div class="counter-up ">    
+                        <div class="counter-icon"><i class="fas fa-chalkboard-teacher fa-2x"></i>  </div>
+                        <h5> Total Teachers </h5>
+                        <h3 class="counter">  10</h3>
+                    </div>  
+                </div>
+                <div class="col-xl-3 col-md-6 col-12"> 
+                    <div class="counter-up">    
+                        <div class="counter-icon"> <i class="fas fa-book fa-2x"></i> </div>
+                        <h5> Total Courses </h5>
+                        <h3 class="counter">  25</h3>
+                    </div>  
+                </div>
+            </div> 
+        </div>  
+    </div>
+</section>
+
+<section id="Contact">
+
+    <div class="container">
+
+        <div class="contactinfo">
+            <div>
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><img src="images/address.png"></span>
+                        <span >Bakı-Memar Əcəmi <br>
+                            Alı Mustafayev,3 <br>
+                            Blok 2 B 
+                        </span>
+                    </li>
+                    <li>
+                        <span><img src="images/email.png"></span>
+                        <span><a href="#">lorem@ipsum.com</a></span>
+                    </li>
+                    <li>
+                        <span><img src="images/phone-call.png"></span>
+                        <span><a href="tel:994555012227">+994 55 501 22 27</a></span>
+                    </li>
+                </ul>
+            </div>
+            <ul class="sci">
+                <li><a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+
+                </a></li> 
+                <li><a href="#">
+                 <i class="fab fa-twitter"></i>
+             </a></li>
+             <li><a href="#">
+                 <i class="fab fa-facebook-f"></i>
+             </a></li>
+             <li><a href="#">
+                 <i class="fab fa-instagram"></i>
+             </a></li>
+         </ul>
+
+     </div>
+     <div class="contactForm">
+        <h2>Send a Message</h2>
+        <div class="formBox">
+            <div class="inputBox w50">
+                <input class="ConInp" type="text" name="" required="">
+                <span class="ConSpan">First Name</span>
+            </div>
+            <div class="inputBox w50">
+                <input class="ConInp" type="text" name="" required>
+                <span class="ConSpan">Last Name</span>
+            </div>
+            <div class="inputBox w50">
+                <input class="ConInp" type="email" name="" required>
+                <span class="ConSpan">Email Address</span>
+            </div>
+            <div class="inputBox w50">
+                <input class="ConInp" type="tel" name="" required>
+                <span class="ConSpan">Mobile Number</span>
+            </div>
+            <div class="inputBox w100" >
+                <textarea class="ConInp" name="" required></textarea>
+                <span class="ConSpan">Write your message here</span>
+            </div>
+            <div class="inputBox w100">
+              <input type="submit" value="Send">
+          </div>
+      </div>
+  </div>
+
+</div>
+
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row  pb-5 pt-5">
+            <div class="col-md-6 col-12 col-xl-4">
+                <div  class=" footer-about">
+                 <h3 class="foot-title">About</h3>
+                 <p>Our company has been developing high-quality and reliable software for corporate needs since 2008. We are renowned professionals of software development.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+
+             </div>
+         </div>
+         <div class="col-md-6 col-12 col-xl-2">
+            <div >
+                <h3 class="foot-title">Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Teachers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>    
+
+        </div>
+        <div class="col-md-6 col-12 col-xl-3 ">
+            <div >
+                <h3 class="foot-title">Top Rated Courses</h3>
+                <ul>
+                    <li><a href="#">C/C++</a></li>
+                    <li><a href="#">General English</a></li>
+                    <li><a href="#">Sat</a></li>
+                    <li><a href="#">Ielts</a></li>
+                    <li><a href="#">IT Professional</a></li>
+                </ul>
+            </div>    
+
+        </div>
+        <div class="col-md-6 col-12 col-xl-3 ">
+            <div >
+                <h3 class="foot-title ">Gallery</h3>
+                  <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                        <div class="col-md-6 col-6 foot-news">
+                            <img src="images/tch2.jpg" width="100%" class="image" alt="First" data-target="#carouselExample" data-slide-to="0">
+                            <div class="middle">
+                                <a href="#" data-target="#carouselExample" data-slide-to="0" ><i class="fas fa-link "></i></a>
+                            </div>
+                        </div>  
+                        <div class="col-md-6 col-6 foot-news">
+                            <img src="images/tch3.jpg" width="100%" class="image" alt="Second" data-target="#carouselExample" data-slide-to="1" >
+                            <div class="middle">
+                                <a href="#" data-target="#carouselExample" data-slide-to="1"><i class="fas fa-link "></i></a>
+                            </div>
+                        </div>  
+                        <div class="col-md-6 col-6 foot-news">
+                            <img src="images/carousel1.jpg" height="100%" width="100%" class="image"  alt="Third" data-target="#carouselExample" data-slide-to="2">
+                            <div class="middle">
+                                <a href="news3.html" data-target="#carouselExample" data-slide-to="2"><i class="fas fa-link "></i></a>
+                            </div>
+                        </div>          
+                        <div class="col-md-6 col-6 foot-news">
+                            <img src="images/carousel2.jpg" width="100%" class="image" alt="Fourth" data-target="#carouselExample" data-slide-to="3" >
+                            <div class="middle">
+                                <a href="news4.html" data-target="#carouselExample" data-slide-to="3"><i class="fas fa-link "></i></a>
+                            </div>
+                        </div>
+            </div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+          <span class="footer-close" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExample" data-slide-to="1"></li>
+            <li data-target="#carouselExample" data-slide-to="2"></li>
+            <li data-target="#carouselExample" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item ">
+              <img class="d-block w-100" src="images/tch2.jpg" alt="First">
+            </div>
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/tch3.jpg" alt="Second">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/carousel1.jpg" alt="Third">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/carousel2.jpg" alt="Fourth">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+ 
+    </div>
+  </div>
+</div>
+
+
+
+        </div>    
+
+    </div>
+</div>
+
+</div>
+<div class="copyright">
+    <p ><span>© It's Created By </span><a href="mailto:asimrzali9@gmail.com">Asim Rza</a><span>...All rights reserved.</span></p>
+</div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+<script src="js/lightslider.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    /*--------Course preview filter ----------*/
+    $(".courseh-link").click(function()
+    {
+        const value=$(this).attr('data-filter');
+        if(value=="all")
+        {
+            $(".cardsc-item").show('1000');
+        }
+        else
+        {
+            $(".cardsc-item").not('.'+value).hide('1000');
+            $(".cardsc-item").filter('.'+value).show('1000');
+        }
+
+    });
+
+
+
+    /*-------Teachers List -----*/
+
+    var itemCount=3;
+    if ($(window).width() < 700){
+        itemCount=1;
+        
+    }
+    else if($(window).width() < 1200)
+    {
+        itemCount=2;
+    }
+    else {
+       itemCount=3;
+   }
+   var autoplaySlider = $('#autoplay').lightSlider({
+       item:itemCount,
+       auto:true,
+       loop:true,
+       
+       onBeforeSlide: function (el) {
+        $('#current').text(el.getCurrentSlideCount());
+    } 
+});
+   $('#total').text(autoplaySlider.getTotalSlideCount());
+
+});
+//lower interval for testings//$('.carousel').carousel({//  interval: 2000//})
+//$('#myCarousel').on('slide.bs.carousel', function () {//  $("#myCarousel").carousel('pause');//})
+//.carousel('cycle')
+
+
+</script>
+   <script src="js/jquery.pagenav.js"></script>
+    <script>
+        $(document).ready(function ()
+        {
+            $('.nav-link').pageNav({'scroll_shift':( $('nav').outerHeight() - 70)});
+            $('.all-coursebtn').pageNav({'scroll_shift':( $('nav').outerHeight() -120)}); 
+            $('.v-cource').pageNav({'scroll_shift':( $('nav').outerHeight() -100)}); 
+           
+        });
+/*--------------NAVBAR-------------*/
+
+
+        let lastScrollTop=0;
+let nav=document.getElementById("MyNavbar");
+window.addEventListener("scroll",function()
+{
+  var scrollTop=window.pageYOffset || document.documentElement.scrollTop;
+
+  if(scrollTop>lastScrollTop)
+  {
+    nav.style.top="-80px";
+
+  }
+  else
+  {
+      nav.style.top="0px";
+       nav.setAttribute("style","background:rgba(255,255,255,0.9) !important;")
+      
+  }
+
+
+  lastScrollTop=scrollTop;
+})
+
+    </script> 
+</body>
+</html>
