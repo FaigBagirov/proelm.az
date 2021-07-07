@@ -90,6 +90,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </header>
 
+<!-- ref links are being added in mainjs on domcontentloaded -->
 <nav id="MyNavbar" class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="/"><img width="auto"  src="/images/logo_mini.png"></a>
@@ -100,30 +101,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item ">
-            <a class="nav-link" href="/#Home">Ana Səhifə <span class="sr-only">(current)</span></a>
+            <a id="navHome" class="nav-link" href="/#Home">Ana Səhifə <span class="sr-only">(current)</span></a>
+            <!-- <a id="navHome" class="nav-link" >Ana Səhifə <span class="sr-only">(current)</span></a> -->
         </li>
 		
 		<li class="nav-item active">
-        <a class="nav-link text-danger" href="http://proelm.az/register.html">Qeydiyyat</a>
+        <a id="navRegister" class="nav-link text-danger" href="http://proelm.az/register.html">Qeydiyyat</a>
+        <!-- <a id="navRegister" class="nav-link text-danger">Qeydiyyat</a> -->
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/#OurCourse">Kurslar</a>
+            <a id="navOurCourse" class="nav-link" href="/#OurCourse">Kurslar</a>
+            <!-- <a id="navOurCourse" class="nav-link" >Kurslar</a> -->
         </li>  
 		
        <!-- <li class="nav-item">
-            <a class="nav-link" href="/#OurTeachers">Müəllimlərimiz</a>
+            <a id="navOurTeachers" class="nav-link" href="/#OurTeachers">Müəllimlərimiz</a>
         </li>-->
 		
 		<li class="nav-item">
-            <a class="nav-link" href="/#AboutUs">Haqqımızda</a>
+            <a id="navAboutUs" class="nav-link" href="/#AboutUs">Haqqımızda</a>
+            <!-- <a id="navAboutUs" class="nav-link" >Haqqımızda</a> -->
         </li>
 
 		        <li class="nav-item">
-            <a class="nav-link text-info" href="/blog">Bloq</a>
+            <a id="navBlog" class="nav-link text-info" href="/blog">Bloq</a>
+            <!-- <a id="navBlog" class="nav-link text-info" >Bloq</a> -->
+
         </li>
 		
         <li class="nav-item">
-            <a class="nav-link" href="/#Contact">Əlaqə</a>
+            <a id="navContact" class="nav-link" href="/#Contact">Əlaqə</a>
+            <!-- <a id="navContact" class="nav-link" href="/#Contact">Əlaqə</a> -->
         </li>
 
     </ul>

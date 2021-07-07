@@ -116,30 +116,30 @@ includeHTML();
 
 
 
-    /*-------Teachers List -----*/
+  //   /*-------Teachers List -----*/
 
-    var itemCount=3;
-    if ($(window).width() < 700){
-      itemCount=1;
+  //   var itemCount=3;
+  //   if ($(window).width() < 700){
+  //     itemCount=1;
 
-    }
-    else if($(window).width() < 1200)
-    {
-      itemCount=2;
-    }
-    else {
-     itemCount=3;
-   }
-   var autoplaySlider = $('#autoplay').lightSlider({
-     item:itemCount,
-     auto:true,
-     loop:true,
-     pauseOnHover: true,
-     onBeforeSlide: function (el) {
-      $('#current').text(el.getCurrentSlideCount());
-    } 
-  });
-   $('#total').text(autoplaySlider.getTotalSlideCount());
+  //   }
+  //   else if($(window).width() < 1200)
+  //   {
+  //     itemCount=2;
+  //   }
+  //   else {
+  //    itemCount=3;
+  //  }
+  //  var autoplaySlider = $('#autoplay').lightSlider({
+  //    item:itemCount,
+  //    auto:true,
+  //    loop:true,
+  //    pauseOnHover: true,
+  //    onBeforeSlide: function (el) {
+  //     $('#current').text(el.getCurrentSlideCount());
+  //   } 
+  // });
+  //  $('#total').text(autoplaySlider.getTotalSlideCount());
 
  });
 
@@ -150,38 +150,38 @@ includeHTML();
 </script>
 <script src="js/jquery.pagenav.js"></script>
 <script>
-  $(document).ready(function ()
-  {
-    $('.nav-link').pageNav({'scroll_shift':( $('nav').outerHeight() - 70)});
-    $('.all-coursebtn').pageNav({'scroll_shift':( $('nav').outerHeight() -120)}); 
-    $('.v-cource').pageNav({'scroll_shift':( $('nav').outerHeight() -100)}); 
+  // $(document).ready(function ()
+  // {
+  //   $('.nav-link').pageNav({'scroll_shift':( $('nav').outerHeight() - 70)});
+  //   $('.all-coursebtn').pageNav({'scroll_shift':( $('nav').outerHeight() -120)}); 
+  //   $('.v-cource').pageNav({'scroll_shift':( $('nav').outerHeight() -100)}); 
 
-  });
-
-
-/*---------------NAVBAR-----------*/
-let lastScrollTop=0;
-let nav=document.getElementById("MyNavbar");
-let courseSticky=document.getElementsByClassName("course-sticky")[0];
-window.addEventListener("scroll",function()
-{
-  var scrollTop=window.pageYOffset || document.documentElement.scrollTop;
-
-  if(scrollTop>lastScrollTop)
-  {
-    nav.style.top="-80px";
-courseSticky.setAttribute("style","top:10px");
-  }
-  else
-  {
-      nav.style.top="0px";
-       nav.setAttribute("style","background:rgba(255,255,255,0.9) !important;");
-      courseSticky.setAttribute("style","top:90px");
-  }
+  // });
 
 
-  lastScrollTop=scrollTop;
-})
+// /*---------------NAVBAR-----------*/
+// let lastScrollTop=0;
+// let nav=document.getElementById("MyNavbar");
+// let courseSticky=document.getElementsByClassName("course-sticky")[0];
+// window.addEventListener("scroll",function()
+// {
+//   var scrollTop=window.pageYOffset || document.documentElement.scrollTop;
+
+//   if(scrollTop>lastScrollTop)
+//   {
+//     nav.style.top="-80px";
+// courseSticky.setAttribute("style","top:10px");
+//   }
+//   else
+//   {
+//       nav.style.top="0px";
+//        nav.setAttribute("style","background:rgba(255,255,255,0.9) !important;");
+//       courseSticky.setAttribute("style","top:90px");
+//   }
+
+
+//   lastScrollTop=scrollTop;
+// })
 
 
 

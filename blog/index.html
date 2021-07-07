@@ -26,14 +26,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link type="text/css" rel="stylesheet" href="/css/lightslider.css" />  
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
+    <!-- <script>
         jQuery(document).ready(function( $ ) {
             $('.counter').counterUp({
                 delay: 10,
                 time: 2000
             });
         });
-</script>
+</script> -->
 
 <title>ProElm</title>
 <link rel="icon"  href="/images/logo.jpg">
@@ -182,36 +182,36 @@ includeHTML();
    
 <script src="/js/jquery.pagenav.js"></script>
    <script>
-      $(document).ready(function ()
-      {
-          $('.nav-link').pageNav({'scroll_shift':( $('nav').outerHeight() - 70)});
-          $('.all-coursebtn').pageNav({'scroll_shift':( $('nav').outerHeight() -120)}); 
-          $('.v-cource').pageNav({'scroll_shift':( $('nav').outerHeight() -100)}); 
+      // $(document).ready(function ()
+      // {
+      //     $('.nav-link').pageNav({'scroll_shift':( $('nav').outerHeight() - 70)});
+      //     $('.all-coursebtn').pageNav({'scroll_shift':( $('nav').outerHeight() -120)}); 
+      //     $('.v-cource').pageNav({'scroll_shift':( $('nav').outerHeight() -100)}); 
          
-      });
-      /*--------------NAVBAR-------------*/
+      // });
+      // /*--------------NAVBAR-------------*/
       
       
-      let lastScrollTop=0;
-      let nav=document.getElementById("MyNavbar");
-      window.addEventListener("scroll",function()
-      {
-      var scrollTop=window.pageYOffset || document.documentElement.scrollTop;
+      // let lastScrollTop=0;
+      // let nav=document.getElementById("MyNavbar");
+      // window.addEventListener("scroll",function()
+      // {
+      // var scrollTop=window.pageYOffset || document.documentElement.scrollTop;
       
-      if(scrollTop>lastScrollTop)
-      {
-      nav.style.top="-80px";
+      // if(scrollTop>lastScrollTop)
+      // {
+      // nav.style.top="-80px";
       
-      }
-      else
-      {
-      nav.style.top="0px";
-      nav.setAttribute("style","background:rgba(255,255,255,0.9) !important;")
+      // }
+      // else
+      // {
+      // nav.style.top="0px";
+      // nav.setAttribute("style","background:rgba(255,255,255,0.9) !important;")
       
-      }
+      // }
       
-      lastScrollTop=scrollTop;
-      })
+      // lastScrollTop=scrollTop;
+      // })
       
    </script> 
 

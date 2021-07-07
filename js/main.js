@@ -1,6 +1,55 @@
 
 
 
+// window.addEventListener('DOMContentLoaded', ()=>{
+//     //setTimeout(() => {
+
+
+//       $(document).ready(function ()
+//       {
+
+
+//       /*--------------NAVBAR-------------*/
+
+//       let lastScrollTop=0;
+//       let nav=document.getElementById("MyNavbar");
+//       window.addEventListener("scroll",function(){
+//          var scrollTop=window.pageYOffset || document.documentElement.scrollTop;
+         
+//          if(scrollTop>lastScrollTop)
+//          {
+//             nav.style.top="-80px";
+         
+//          }
+//          else
+//          {
+//             nav.style.top="0px";
+//             nav.setAttribute("style","background:rgba(255,255,255,0.9) !important;")
+         
+//          }
+         
+//          lastScrollTop=scrollTop;
+//       })
+//    });
+//       /*--------------NAVBAR-------------*/
+      
+//       console.log("dom loaded");
+//       const navElements = document.querySelectorAll('.nav-link');
+//       console.log(document.querySelectorAll('.nav-link'));
+//       navElements.forEach(element=>{
+//       let hrefLink = element.id.replace('nav','');
+//       element.href = `/#${hrefLink}`;
+//       });
+//     //}, 3000); 
+//     //-@ problem is here  
+
+//       //$('.nav-link').pageNav({'scroll_shift':( $('nav').outerHeight() - 70)});
+//       //$('.all-coursebtn').pageNav({'scroll_shift':( $('nav').outerHeight() -120)}); 
+//       //$('.v-cource').pageNav({'scroll_shift':( $('nav').outerHeight() -100)}); 
+  
+
+// });
+
 
 //COURSE HEADER ITEMS CHANGE
 let courseUl=document.querySelector("#courseh-ul");
@@ -16,10 +65,6 @@ courseli.forEach(el=>
 	});
  
 });
-
-
-
-
 
 var conInp=document.getElementsByClassName("ConInp");
 var spanInp=document.getElementsByClassName("ConSpan");
