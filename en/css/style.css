@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap');
-*
+/* *
 {
 	
-}
+} */
 
 html 
 {
@@ -707,10 +707,10 @@ padding: 0px !important;
 	color: #fff !important;
 	animation: animateButton 3s linear infinite ;
 }
-.all-coursebtn:hover
+/* .all-coursebtn:hover
 {
 	
-}
+} */
 @keyframes animateButton
 {
 	0%
@@ -1340,7 +1340,7 @@ filter:drop-shadow(8px 8px 10px gray);
 	font-size: 30px;
 	opacity: 1;
 	transition: 0.5s;
-	color: #03a9f4 !importantı
+	color: #03a9f4 !important;
 }
 #Contact .contactinfo .sci li a i:hover
 {
@@ -1449,6 +1449,12 @@ footer
 	min-height: 300px;
 	background:#112d42 !important;
 }
+#contactsPic {
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+}
+
 footer ul
 {
 	padding-left: 0px !important 
@@ -1596,11 +1602,12 @@ background:#112d42 !important;
   
 }
 
-footer .carousel-item img 
+/* footer .carousel-item img 
 {
 	/*width:400px !important;
-height: 400px !important;*/
-}
+height: 400px !important;
+} */
+
 .footer-close
 {
 	color: red !important;
